@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced Alloys -->
+
+  <CAL_BlackSteel.label>碳钢</CAL_BlackSteel.label>
+  <CAL_BlackSteel.description>与贵金属合金想融合的钢材，提高了钢材的耐久性。可用于建筑结构、工具和武器。</CAL_BlackSteel.description>
+  <CAL_BlackSteel.stuffProps.stuffAdjective>碳钢</CAL_BlackSteel.stuffProps.stuffAdjective>
+
+  <CAL_Plastin.label>锡钢合金</CAL_Plastin.label>
+  <CAL_Plastin.description>一种耐用的锡和玻璃钢的合金，可用于武器。也可用于建筑结构、工具和雕塑。</CAL_Plastin.description>
+  <CAL_Plastin.stuffProps.stuffAdjective>锡钢合金</CAL_Plastin.stuffProps.stuffAdjective>
+
+
+</LanguageData>

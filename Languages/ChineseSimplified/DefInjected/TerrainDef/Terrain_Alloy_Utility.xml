@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Utility Alloys -->
+
+  <CAL_PlumchalcumTile.label>铝铜合金地砖</CAL_PlumchalcumTile.label>
+  <CAL_PlumchalcumTile.description>黑色的地板，易于铺设。</CAL_PlumchalcumTile.description>
+
+  <CAL_DuraluminTile.label>杜拉铝地砖</CAL_DuraluminTile.label>
+  <CAL_DuraluminTile.description>光亮、干净的地板。</CAL_DuraluminTile.description>
+
+  <CAL_ZamakTile.label>锌基压铸合金地砖</CAL_ZamakTile.label>
+  <CAL_ZamakTile.description>一种很实用的地板。</CAL_ZamakTile.description>
+
+  <CAL_BismuthBronzeTile.label>铋青铜地砖</CAL_BismuthBronzeTile.label>
+  <CAL_BismuthBronzeTile.description>一种中性的地板。</CAL_BismuthBronzeTile.description>
+
+  <CAL_BronzeTile.label>青铜地砖</CAL_BronzeTile.label>
+  <CAL_BronzeTile.description>一种中性的地板。</CAL_BronzeTile.description>
+
+  <CAL_CupronickelTile.label>白铜地板</CAL_CupronickelTile.label>
+  <CAL_CupronickelTile.description>一种很实用的地板。</CAL_CupronickelTile.description>
+
+  <CAL_StainlessSteelTile.label>不锈钢地板</CAL_StainlessSteelTile.label>
+  <CAL_StainlessSteelTile.description>不锈钢板，保持房间清洁。中性的外观而且铺设速度很慢。</CAL_StainlessSteelTile.description>
+
+  <CAL_HepatzionTile.label>金银铜合金地砖</CAL_HepatzionTile.label>
+  <CAL_HepatzionTile.description>金银铜合金地砖，有黑色的外观，也很清洁，非常美丽但是铺设很慢。</CAL_HepatzionTile.description>
+
+
+</LanguageData>

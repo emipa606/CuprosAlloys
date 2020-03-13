@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced Alloys -->
+
+  <CAL_BlackSteelTile.label>碳钢地砖</CAL_BlackSteelTile.label>
+  <CAL_BlackSteelTile.description>坚固的金属地砖，有黑色和干净的外观。但是铺设很慢。</CAL_BlackSteelTile.description>
+
+  <CAL_PlastinTile.label>锡钢合金地砖</CAL_PlastinTile.label>
+  <CAL_PlastinTile.description>类似宇宙飞船主题的金属地板。非常昂贵，而且铺设需要大量的工作。</CAL_PlastinTile.description>
+
+
+</LanguageData>

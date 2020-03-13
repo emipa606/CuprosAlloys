@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CAL_MineableBauxite.label>铝土矿</CAL_MineableBauxite.label>
+  <CAL_MineableBauxite.description>一条土矿脉。</CAL_MineableBauxite.description>
+
+  <CAL_MineableCassiterite.label>锡石矿</CAL_MineableCassiterite.label>
+  <CAL_MineableCassiterite.description>一条锡石矿脉。</CAL_MineableCassiterite.description>
+
+  <CAL_MineableSphalerite.label>闪锌矿</CAL_MineableSphalerite.label>
+  <CAL_MineableSphalerite.description>一条闪锌矿脉。</CAL_MineableSphalerite.description>
+
+  <CAL_MineableGarnierite.label>硅镁镍矿床</CAL_MineableGarnierite.label>
+  <CAL_MineableGarnierite.description>一条硅镁镍矿矿脉。</CAL_MineableGarnierite.description>
+
+  <CAL_MineableBismuthinite.label>辉铋矿</CAL_MineableBismuthinite.label>
+  <CAL_MineableBismuthinite.description>一条辉铋矿脉</CAL_MineableBismuthinite.description>
+
+  <CAL_MineableMalachite.label>孔雀石矿</CAL_MineableMalachite.label>
+  <CAL_MineableMalachite.description>一条孔雀石矿脉.</CAL_MineableMalachite.description>
+
+  <CAL_MineableGalena.label>方铅矿</CAL_MineableGalena.label>
+  <CAL_MineableGalena.description>一种铅矿石的矿脉，也有银的痕迹。</CAL_MineableGalena.description>
+
+  <CAL_MineableChromite.label>铬铁矿</CAL_MineableChromite.label>
+  <CAL_MineableChromite.description>一种铬矿石的矿脉。</CAL_MineableChromite.description>
+
+
+</LanguageData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Silver"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>CAL_Metals</li>
+			</thingCategories>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gold"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>CAL_Metals</li>
+			</thingCategories>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Steel"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>CAL_Metals</li>
+			</thingCategories>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Plasteel"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>CAL_Metals</li>
+			</thingCategories>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Uranium"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>CAL_Metals</li>
+			</thingCategories>
+		</value>
+	</Operation>
+
+</Patch>

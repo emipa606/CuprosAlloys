@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="CuprosAlloys.PatchOperationFindMod">
+				<modName>Combat Extended</modName>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Copper"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Lead"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Tin"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Aluminum"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Nickel"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Zinc"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Bismuth"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="CuprosAlloys.PatchOperationFindMod">
+				<modName>Combat Extended</modName>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Plumchalcum"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Duralumin"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+					<li>Steeled</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Zamak"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_BismuthBronze"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Bronze"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Cupronickel"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_StainlessSteel"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+					<li>Steeled</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Hepatzion"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="CuprosAlloys.PatchOperationFindMod">
+				<modName>Combat Extended</modName>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_ChromePlatedSteel"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+					<li>Steeled</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="CuprosAlloys.PatchOperationFindMod">
+				<modName>Combat Extended</modName>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_BlackSteel"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+					<li>Steeled</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CAL_Plastin"]/stuffProps/categories</xpath>
+				<value>
+					<li>Metallic_Weapon</li>
+					<li>Steeled</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Expanded Power Duplicates/Overwrites -->
+
+  <CAL_CopperTile.label>无菌铜地砖</CAL_CopperTile.label>
+  <CAL_CopperTile.description>抗菌铜地砖，在医院中很有用，可以帮助病人防止各种感染。</CAL_CopperTile.description>
+
+  <CAL_LeadTile.label>铅地砖</CAL_LeadTile.label>
+  <CAL_LeadTile.description>铅地板，有黑色的外观且容易铺设，但是容易滋生病菌</CAL_LeadTile.description>
+
+
+  <!-- Base Metals -->
+
+  <CAL_TinTile.label>锡地砖</CAL_TinTile.label>
+  <CAL_TinTile.description>一种实用的地砖，铺设很快。</CAL_TinTile.description>
+
+  <CAL_AluminumTile.label>铝地砖</CAL_AluminumTile.label>
+  <CAL_AluminumTile.description>一种实用的地砖，铺设很快。</CAL_AluminumTile.description>
+
+  <CAL_NickelTile.label>镍地砖</CAL_NickelTile.label>
+  <CAL_NickelTile.description>一种明亮的地砖，铺设很快。</CAL_NickelTile.description>
+
+  <CAL_ZincTile.label>锌地砖</CAL_ZincTile.label>
+  <CAL_ZincTile.description>一种明亮的地砖，铺设很快。.</CAL_ZincTile.description>
+
+  <CAL_BismuthTile.label>铋地砖</CAL_BismuthTile.label>
+  <CAL_BismuthTile.description>有彩虹般的外观。提供少量的美观但是铺设很慢。</CAL_BismuthTile.description>
+
+  <CAL_ChromiumTile.label>铬地砖</CAL_ChromiumTile.label>
+  <CAL_ChromiumTile.description>铬砖提供了明亮的镜面地板。非常昂贵，且铺设需要大量的工作。</CAL_ChromiumTile.description>
+
+
+</LanguageData>

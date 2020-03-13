@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="CAL_RecipeAlloyBase" Abstract="True">
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="CAL_RecipeUtilityBase" ParentName="CAL_RecipeAlloyBase" Abstract="True">
+		<researchPrerequisite>
+			<li>CAL_UtilityAlloys</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef Name="CAL_RecipeDecorativeBase" ParentName="CAL_RecipeAlloyBase" Abstract="True">
+		<researchPrerequisite>
+			<li>CAL_DecorativeAlloys</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef Name="CAL_RecipeAdvancedBase" ParentName="CAL_RecipeAlloyBase" Abstract="True">
+		<researchPrerequisite>
+			<li>CAL_AdvancedAlloys</li>
+		</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	<!--============================== Conversions ==============================-->
+
+
+	<RecipeDef Name="CAL_ConversionBase" Abstract="True">
+		<jobString>Converting metals.</jobString>
+		<workAmount>50</workAmount>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>4</targetCountAdjustment>
+		<products>
+			<Steel>4</Steel>
+		</products>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<researchPrerequisite>
+			<li>CAL_UtilityAlloys</li>
+		</researchPrerequisite>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_ConversionBase">
+		<defName>CAL_ConvertBronze</defName>
+		<label>Convert bronze to steel</label>
+		<description>Convert bronze ingots into steel for general crafting purposes. Makes 4 steel.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_BismuthBronze</li>
+						<li>CAL_Bronze</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_BismuthBronze</li>
+				<li>CAL_Bronze</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_ConversionBase">
+		<defName>CAL_ConvertAluminum</defName>
+		<label>Convert aluminum alloys to steel</label>
+		<description>Convert duralumin or zamak ingots into steel for general crafting purposes. Makes 4 steel.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Duralumin</li>
+						<li>CAL_Zamak</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Duralumin</li>
+				<li>CAL_Zamak</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+
+	<!--============================== Utility Alloys ==============================-->
+
+
+	<RecipeDef ParentName="CAL_RecipeUtilityBase">
+		<defName>CAL_MakePlumchalcum</defName>
+		<label>smelt plumchalcum</label>
+		<description>Use intense heat to melt and mix metals, creating plumchalcum. Makes 10 ingots.</description>
+		<jobString>Smelting plumchalcum.</jobString>
+		<workAmount>800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Lead</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_Plumchalcum>10</CAL_Plumchalcum>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Lead</li>
+				<li>CAL_Copper</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_RecipeUtilityBase">
+		<defName>CAL_MakeDuralumin</defName>
+		<label>smelt duralumin</label>
+		<description>Use intense heat to melt and mix metals, creating duralumin. Makes 10 ingots.</description>
+		<jobString>Smelting duralumin.</jobString>
+		<workAmount>900</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Aluminum</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_Duralumin>10</CAL_Duralumin>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Aluminum</li>
+				<li>CAL_Copper</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="CAL_RecipeUtilityBase">
+		<defName>CAL_MakeZamak</defName>
+		<label>smelt zamak</label>
+		<description>Use intense heat to melt and mix metals, creating zamak. Makes 10 ingots.</description>
+		<jobString>Smelting zamak.</jobString>
+		<workAmount>600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Aluminum</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Zinc</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_Zamak>10</CAL_Zamak>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Aluminum</li>
+				<li>CAL_Zinc</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="CAL_RecipeUtilityBase">
+		<defName>CAL_MakeBismuthBronze</defName>
+		<label>smelt bismuth bronze</label>
+		<description>Use intense heat to melt and mix metals, creating bismuth bronze. Makes 10 ingots.</description>
+		<jobString>Smelting bronze.</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Zinc</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Bismuth</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_BismuthBronze>10</CAL_BismuthBronze>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Copper</li>
+				<li>CAL_Zinc</li>
+				<li>CAL_Bismuth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_RecipeUtilityBase">
+		<defName>CAL_MakeBronze</defName>
+		<label>smelt bronze</label>
+		<description>Use intense heat to melt and mix metals, creating bronze. Makes 10 ingots.</description>
+		<jobString>Smelting bronze.</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Tin</li>
+						<li>CAL_Zinc</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_Bronze>10</CAL_Bronze>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Copper</li>
+				<li>CAL_Tin</li>
+				<li>CAL_Zinc</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_RecipeUtilityBase">
+		<defName>CAL_MakeCupronickel</defName>
+		<label>smelt cupronickel</label>
+		<description>Use intense heat to melt and mix metals, creating cupronickel. Makes 10 ingots.</description>
+		<jobString>Smelting cupronickel.</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Nickel</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_Cupronickel>10</CAL_Cupronickel>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Copper</li>
+				<li>CAL_Nickel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="CAL_RecipeUtilityBase">
+		<defName>CAL_MakeStainlessSteel</defName>
+		<label>smelt stainless steel</label>
+		<description>Use intense heat to melt and mix metals, creating stainless steel. Makes 10 ingots.</description>
+		<jobString>Smelting stainless steel.</jobString>
+		<workAmount>1300</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Nickel</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Chromium</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_StainlessSteel>10</CAL_StainlessSteel>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>CAL_Nickel</li>
+				<li>CAL_Chromium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_RecipeUtilityBase">
+		<defName>CAL_MakeHepatzion</defName>
+		<label>smelt hepatzion</label>
+		<description>Use intense heat to melt and mix metals, creating hepatzion. Makes 10 ingots.</description>
+		<jobString>Smelting hepatzion.</jobString>
+		<workAmount>1400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_Hepatzion>10</CAL_Hepatzion>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Copper</li>
+				<li>Silver</li>
+				<li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+
+	<!--============================== Decorative Alloys ==============================-->
+
+
+	<RecipeDef ParentName="CAL_RecipeDecorativeBase">
+		<defName>CAL_MakeBrass</defName>
+		<label>smelt brass</label>
+		<description>Use intense heat to melt and mix metals, creating brass. Makes 10 ingots.</description>
+		<jobString>Smelting brass.</jobString>
+		<workAmount>800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Aluminum</li>
+						<li>CAL_Zinc</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_Brass>10</CAL_Brass>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Copper</li>
+				<li>CAL_Aluminum</li>
+				<li>CAL_Zinc</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="CAL_RecipeDecorativeBase">
+		<defName>CAL_MakeChromePlatedSteel</defName>
+		<label>smelt chrome-plated steel</label>
+		<description>Use intense heat to melt meatls and coat steel, creating chrome-plated steel. Makes 20 ingots.</description>
+		<jobString>Smelting chrome-plated steel.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Nickel</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Chromium</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_ChromePlatedSteel>20</CAL_ChromePlatedSteel>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>CAL_Nickel</li>
+				<li>CAL_Chromium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_RecipeDecorativeBase">
+		<defName>CAL_MakeAurichalcum</defName>
+		<label>smelt aurichalcum</label>
+		<description>Use intense heat to melt and mix metals, creating aurichalcum. Makes 10 ingots.</description>
+		<jobString>Smelting aurichalcum.</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_Aurichalcum>10</CAL_Aurichalcum>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Copper</li>
+				<li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_RecipeDecorativeBase">
+		<defName>CAL_MakeSterlingSilver</defName>
+		<label>smelt sterling silver</label>
+		<description>Use intense heat to melt and mix metals, creating sterling silver. Makes 10 ingots.</description>
+		<jobString>Smelting black bronze.</jobString>
+		<workAmount>1400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>3.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_SterlingSilver>10</CAL_SterlingSilver>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+				<li>CAL_Copper</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_RecipeDecorativeBase">
+		<defName>CAL_MakeRoseGold</defName>
+		<label>smelt rose gold</label>
+		<description>Use intense heat to melt and mix metals, creating rose gold. Makes 10 ingots.</description>
+		<jobString>Smelting rose gold.</jobString>
+		<workAmount>1400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>3.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_RoseGold>10</CAL_RoseGold>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Gold</li>
+				<li>CAL_Copper</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_RecipeDecorativeBase">
+		<defName>CAL_MakeElectrum</defName>
+		<label>smelt electrum</label>
+		<description>Use intense heat to melt and mix metals, creating electrum. Makes 10 ingots.</description>
+		<jobString>Smelting electrum.</jobString>
+		<workAmount>1600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>2.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>2.5</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_Electrum>10</CAL_Electrum>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Gold</li>
+				<li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+
+	<!--============================== Advanced Alloys ==============================-->
+
+
+	<RecipeDef ParentName="CAL_RecipeAdvancedBase">
+		<defName>CAL_MakeBlackSteel</defName>
+		<label>smelt black steel</label>
+		<description>Use intense heat to melt and mix metals, creating black steel. Makes 10 ingots.</description>
+		<jobString>Smelting black steel.</jobString>
+		<workAmount>1800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_StainlessSteel</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Hepatzion</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_BlackSteel>10</CAL_BlackSteel>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_StainlessSteel</li>
+				<li>CAL_Hepatzion</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CAL_RecipeAdvancedBase">
+		<defName>CAL_MakePlastin</defName>
+		<label>smelt plastin</label>
+		<description>Use intense heat to melt and mix metals, creating plastin. Makes 10 ingots.</description>
+		<jobString>Smelting plastin.</jobString>
+		<workAmount>1800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_Tin</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CAL_BismuthBronze</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<CAL_Plastin>10</CAL_Plastin>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CAL_Tin</li>
+				<li>Plasteel</li>
+				<li>CAL_BismuthBronze</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>

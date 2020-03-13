@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Utility Alloys -->
+
+  <CAL_Plumchalcum.label>铅铜合金</CAL_Plumchalcum.label>
+  <CAL_Plumchalcum.description>铅和铜的合金，古代用于餐具和器皿。可用于建筑结构、工具和武器。</CAL_Plumchalcum.description>
+  <CAL_Plumchalcum.stuffProps.stuffAdjective>铅铜合金</CAL_Plumchalcum.stuffProps.stuffAdjective>
+
+  <CAL_Duralumin.label>杜拉铝</CAL_Duralumin.label>
+  <CAL_Duralumin.description>一种轻而坚固的铝和铜合金。可用于建筑结构、工具和武器。</CAL_Duralumin.description>
+  <CAL_Duralumin.stuffProps.stuffAdjective>杜拉铝</CAL_Duralumin.stuffProps.stuffAdjective>
+
+  <CAL_Zamak.label>锌基压铸合金</CAL_Zamak.label>
+  <CAL_Zamak.description>一种软而强的铝和锌合金，易于制造。可用于建筑结构、工具和武器。</CAL_Zamak.description>
+  <CAL_Zamak.stuffProps.stuffAdjective>锌基压铸合金</CAL_Zamak.stuffProps.stuffAdjective>
+
+  <CAL_BismuthBronze.label>铋青铜</CAL_BismuthBronze.label>
+  <CAL_BismuthBronze.description>铜、锌、铋的强合金，在发现钢铁之前就已使用过。可用于建筑结构、工具和武器。</CAL_BismuthBronze.description>
+  <CAL_BismuthBronze.stuffProps.stuffAdjective>铋青铜</CAL_BismuthBronze.stuffProps.stuffAdjective>
+
+  <CAL_Bronze.label>青铜</CAL_Bronze.label>
+  <CAL_Bronze.description>一种铜、锡或锌的坚固合金，在发现钢之前就已广泛使用。可用于建筑结构、工具和武器。</CAL_Bronze.description>
+  <CAL_Bronze.stuffProps.stuffAdjective>青铜</CAL_Bronze.stuffProps.stuffAdjective>
+
+  <CAL_Cupronickel.label>白铜</CAL_Cupronickel.label>
+  <CAL_Cupronickel.description>铜和镍的弹性合金。可用于建筑结构、工具和武器。</CAL_Cupronickel.description>
+  <CAL_Cupronickel.stuffProps.stuffAdjective>白铜</CAL_Cupronickel.stuffProps.stuffAdjective>
+
+  <CAL_StainlessSteel.label>不锈钢</CAL_StainlessSteel.label>
+  <CAL_StainlessSteel.description>一种钢、铬和镍的合金，因其具有杀菌能力而闻名。可用于建筑结构、工具和武器。</CAL_StainlessSteel.description>
+  <CAL_StainlessSteel.stuffProps.stuffAdjective>不锈钢</CAL_StainlessSteel.stuffProps.stuffAdjective>
+
+  <CAL_Hepatzion.label>金银铜合金</CAL_Hepatzion.label>
+  <CAL_Hepatzion.description>一种贵重金属合金，具有相当的强度，通常用于制作雕塑。也可以用于建筑结构、工具和武器。</CAL_Hepatzion.description>
+  <CAL_Hepatzion.stuffProps.stuffAdjective>金银铜合金</CAL_Hepatzion.stuffProps.stuffAdjective>
+
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CAL_UtilityAlloys.label>多用途合金</CAL_UtilityAlloys.label>
+  <CAL_UtilityAlloys.description>研究实用合金金属。\n  -解锁铅铜合金、杜拉铝、锌基压铸合金、铋青铜、青铜、白铜、不锈钢和金银铜合金。</CAL_UtilityAlloys.description>
+
+  <CAL_DecorativeAlloys.label>装饰用合金</CAL_DecorativeAlloys.label>
+  <CAL_DecorativeAlloys.description>>研究装饰用合金金属。\n  -解锁黄铜，镀铬钢，奥利哈钢，银铜合金，玫瑰金，和琥珀金。</CAL_DecorativeAlloys.description>
+
+  <CAL_AdvancedAlloys.label>高级合金</CAL_AdvancedAlloys.label>
+  <CAL_AdvancedAlloys.description>研究高级合金。\n  -解锁碳钢和锡钢合金。</CAL_AdvancedAlloys.description>
+
+
+</LanguageData>

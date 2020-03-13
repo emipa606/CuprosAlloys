@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Conversions -->
+
+  <CAL_ConvertBronze.label>青铜铸钢</CAL_ConvertBronze.label>
+  <CAL_ConvertBronze.description>将青铜铸成钢材，产出4钢材。</CAL_ConvertBronze.description>
+  <CAL_ConvertBronze.jobString>熔铸钢材中</CAL_ConvertBronze.jobString>
+
+  <CAL_ConvertAluminum.label>锌铝铸钢</CAL_ConvertAluminum.label>
+  <CAL_ConvertAluminum.description>将杜拉铝和压铸合金铸成钢材，产出4钢材。</CAL_ConvertAluminum.description>
+  <CAL_ConvertAluminum.jobString>熔铸钢材中</CAL_ConvertAluminum.jobString>
+
+
+  <!-- Utility Alloys -->
+
+  <CAL_MakePlumchalcum.label>冶炼铅铜合金</CAL_MakePlumchalcum.label>
+  <CAL_MakePlumchalcum.description>用高热融化和混合金属，产出10铅铜合金。</CAL_MakePlumchalcum.description>
+  <CAL_MakePlumchalcum.jobString>冶炼铅铜合金中</CAL_MakePlumchalcum.jobString>
+
+  <CAL_MakeDuralumin.label>冶炼杜拉铝</CAL_MakeDuralumin.label>
+  <CAL_MakeDuralumin.description>用高热融化和混合金属，产出10杜拉铝。</CAL_MakeDuralumin.description>
+  <CAL_MakeDuralumin.jobString>冶炼杜拉铝中</CAL_MakeDuralumin.jobString>
+
+  <CAL_MakeZamak.label>冶炼锌基压铸合金</CAL_MakeZamak.label>
+  <CAL_MakeZamak.description>用高热融化和混合金属，产出10锌基压铸合金。</CAL_MakeZamak.description>
+  <CAL_MakeZamak.jobString>冶炼中锌基压铸合金</CAL_MakeZamak.jobString>
+
+  <CAL_MakeBismuthBronze.label>冶炼铋青铜合金</CAL_MakeBismuthBronze.label>
+  <CAL_MakeBismuthBronze.description>用高热融化和混合金属，产出10铋青铜。</CAL_MakeBismuthBronze.description>
+  <CAL_MakeBismuthBronze.jobString>冶炼铋青铜中</CAL_MakeBismuthBronze.jobString>
+
+  <CAL_MakeBronze.label>冶炼青铜</CAL_MakeBronze.label>
+  <CAL_MakeBronze.description>用高热融化和混合金属，产出10青铜。</CAL_MakeBronze.description>
+  <CAL_MakeBronze.jobString>冶炼青铜中</CAL_MakeBronze.jobString>
+
+  <CAL_MakeCupronickel.label>冶炼白铜</CAL_MakeCupronickel.label>
+  <CAL_MakeCupronickel.description>用高热融化和混合金属，产出10白铜。</CAL_MakeCupronickel.description>
+  <CAL_MakeCupronickel.jobString>冶炼白铜中.</CAL_MakeCupronickel.jobString>
+
+  <CAL_MakeStainlessSteel.label>冶炼不锈钢</CAL_MakeStainlessSteel.label>
+  <CAL_MakeStainlessSteel.description>用高热融化和混合金属，产出10不锈钢。</CAL_MakeStainlessSteel.description>
+  <CAL_MakeStainlessSteel.jobString>冶炼不锈钢中</CAL_MakeStainlessSteel.jobString>
+
+  <CAL_MakeHepatzion.label>冶炼金银铜合金</CAL_MakeHepatzion.label>
+  <CAL_MakeHepatzion.description>用高热融化和混合金属，产出10金银铜合金。</CAL_MakeHepatzion.description>
+  <CAL_MakeHepatzion.jobString>冶炼金银铜合金中</CAL_MakeHepatzion.jobString>
+
+
+  <!-- Decorative Alloys -->
+
+  <CAL_MakeBrass.label>冶炼黄铜</CAL_MakeBrass.label>
+  <CAL_MakeBrass.description>用高热融化和混合金属，产出10黄铜。</CAL_MakeBrass.description>
+  <CAL_MakeBrass.jobString>冶炼黄铜中</CAL_MakeBrass.jobString>
+
+  <CAL_MakeChromePlatedSteel.label>冶炼镀铬钢</CAL_MakeChromePlatedSteel.label>
+  <CAL_MakeChromePlatedSteel.description>用高热融化和混合金属，产出20镀铬钢.</CAL_MakeChromePlatedSteel.description>
+  <CAL_MakeChromePlatedSteel.jobString>冶炼镀铬钢中</CAL_MakeChromePlatedSteel.jobString>
+
+  <CAL_MakeAurichalcum.label>冶炼奥利哈刚</CAL_MakeAurichalcum.label>
+  <CAL_MakeAurichalcum.description>用高热融化和混合金属，产出10奥利哈刚。</CAL_MakeAurichalcum.description>
+  <CAL_MakeAurichalcum.jobString>冶炼奥利哈刚中</CAL_MakeAurichalcum.jobString>
+
+  <CAL_MakeSterlingSilver.label>冶炼银铜合金</CAL_MakeSterlingSilver.label>
+  <CAL_MakeSterlingSilver.description>用高热融化和混合金属，产出10银铜合金。</CAL_MakeSterlingSilver.description>
+  <CAL_MakeSterlingSilver.jobString>冶炼银铜合金中</CAL_MakeSterlingSilver.jobString>
+
+  <CAL_MakeRoseGold.label>冶炼玫瑰金</CAL_MakeRoseGold.label>
+  <CAL_MakeRoseGold.description>用高热融化和混合金属，产出10玫瑰金。</CAL_MakeRoseGold.description>
+  <CAL_MakeRoseGold.jobString>冶炼玫瑰金中</CAL_MakeRoseGold.jobString>
+
+  <CAL_MakeElectrum.label>冶炼琥珀金</CAL_MakeElectrum.label>
+  <CAL_MakeElectrum.description>用高热融化和混合金属，产出10琥珀金。</CAL_MakeElectrum.description>
+  <CAL_MakeElectrum.jobString>冶炼琥珀金中</CAL_MakeElectrum.jobString>
+
+
+  <!-- Advanced Alloys -->
+
+  <CAL_MakeBlackSteel.label>冶炼碳钢</CAL_MakeBlackSteel.label>
+  <CAL_MakeBlackSteel.description>用高热融化和混合金属，产出10碳钢。</CAL_MakeBlackSteel.description>
+  <CAL_MakeBlackSteel.jobString>冶炼碳钢中</CAL_MakeBlackSteel.jobString>
+
+  <CAL_MakePlastin.label>冶炼锡钢合金</CAL_MakePlastin.label>
+  <CAL_MakePlastin.description>用高热融化和混合金属，产出10锡钢合金。</CAL_MakePlastin.description>
+  <CAL_MakePlastin.jobString>冶炼锡钢合金中</CAL_MakePlastin.jobString>
+
+
+</LanguageData>

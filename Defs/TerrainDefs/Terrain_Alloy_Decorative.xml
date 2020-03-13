@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	
+	<!--==================== Decorative Alloys ====================-->
+	
+	
+	<TerrainDef ParentName="CAL_AlloyFloorBase">
+		<defName>CAL_BrassTile</defName>
+		<label>brass tile</label>
+		<description>A cheaper alternative to pure gold flooring. Fits perfectly into all kinds of luxurious rooms.</description>
+		<texturePath>Cupro/Terrain/ShinyFloorTile</texturePath>
+		<color>(244, 205, 125)</color>
+		<statBases>
+			<Beauty>2</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+			<WorkToBuild>400</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_Brass>5</CAL_Brass>
+		</costList>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="CAL_AlloyFloorBase">
+		<defName>CAL_ChromePlatedSteelTile</defName>
+		<label>chrome-plated steel tile</label>
+		<description>Chrome-plated steel tiles provide a mirrored floor. Expensive, and requires a lot of work to build.</description>
+		<texturePath>Cupro/Terrain/ShinyFloorTile</texturePath>
+		<color>(245,250,255)</color>
+		<statBases>
+			<Beauty>2</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+			<WorkToBuild>1500</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_ChromePlatedSteel>5</CAL_ChromePlatedSteel>
+		</costList>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="CAL_AlloyFloorBase">
+		<defName>CAL_AurichalcumTile</defName>
+		<label>aurichalcum tile</label>
+		<description>A vibrant flooring for a flashy look. Fits into all kinds of luxurious rooms.</description>
+		<texturePath>Cupro/Terrain/ShinyFloorTile</texturePath>
+		<color>(229,74,36)</color>
+		<statBases>
+			<Beauty>1</Beauty>
+			<Cleanliness>0.1</Cleanliness>
+			<WorkToBuild>800</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_Aurichalcum>5</CAL_Aurichalcum>
+		</costList>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="CAL_AlloyFloorBase">
+		<defName>CAL_SterlingSilverTile</defName>
+		<label>sterling silver tile</label>
+		<description>A slightly cheaper alternative to pure silver without sacrificing beauty. Fits perfectly into all kinds of luxurious rooms.</description>
+		<texturePath>Cupro/Terrain/ShinyFloorTile</texturePath>
+		<color>(228,214,197)</color>
+		<statBases>
+			<Beauty>2</Beauty>
+			<Cleanliness>0.1</Cleanliness>
+			<WorkToBuild>1000</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_SterlingSilver>5</CAL_SterlingSilver>
+		</costList>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="CAL_AlloyFloorBase">
+		<defName>CAL_RoseGoldTile</defName>
+		<label>rose gold tile</label>
+		<description>A beautiful and impressive kind of floor. Very expensive and requires a lot of work to build.</description>
+		<texturePath>Cupro/Terrain/ShinyFloorTile</texturePath>
+		<color>(250,180,140)</color>
+		<statBases>
+			<Beauty>4</Beauty>
+			<WorkToBuild>1200</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_RoseGold>5</CAL_RoseGold>
+		</costList>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="CAL_AlloyFloorBase">
+		<defName>CAL_ElectrumTile</defName>
+		<label>electrum tile</label>
+		<description>An elegant flooring that strikes the perfect balance between gold and silver. Fits perfectly into all kinds of luxurious rooms.</description>
+		<texturePath>Cupro/Terrain/ShinyFloorTile</texturePath>
+		<color>(249,239,170)</color>
+		<statBases>
+			<Beauty>3</Beauty>
+			<Cleanliness>0.1</Cleanliness>
+			<WorkToBuild>1000</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_Electrum>5</CAL_Electrum>
+		</costList>
+	</TerrainDef>
+
+</Defs>

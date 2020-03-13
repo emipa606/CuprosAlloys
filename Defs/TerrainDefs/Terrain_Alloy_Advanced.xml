@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--==================== Advanced Alloys ====================-->
+	
+	
+	<TerrainDef ParentName="CAL_AlloyFloorBase">
+		<defName>CAL_BlackSteelTile</defName>
+		<label>black steel tile</label>
+		<description>Strong metal tiles, for a dark and clean look. Pretty, but labor-intensive.</description>
+		<color>(30,28,30)</color>
+		<statBases>
+			<Beauty>1</Beauty>
+			<WorkToBuild>1500</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_BlackSteel>5</CAL_BlackSteel>
+		</costList>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="CAL_AlloyFloorBase">
+		<defName>CAL_PlastinTile</defName>
+		<label>plastin tile</label>
+		<description>Metal tiles, for that spaceship look. Very expensive and requires a lot of work to build.</description>
+		<color>(100,124,139)</color>
+		<statBases>
+			<Beauty>1</Beauty>
+			<WorkToBuild>1800</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_Plastin>5</CAL_Plastin>
+		</costList>
+	</TerrainDef>
+
+</Defs>

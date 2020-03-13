@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Base Metals -->
+
+  <CAL_Copper.label>铜</CAL_Copper.label>
+  <CAL_Copper.description>导热性和导电性高，是一种常用的材料，也可用作建筑材料，也可以用于建筑结构、工具和武器。</CAL_Copper.description>
+  <CAL_Copper.stuffProps.stuffAdjective>铜</CAL_Copper.stuffProps.stuffAdjective>
+
+  <CAL_Lead.label>铅</CAL_Lead.label>
+  <CAL_Lead.description>一种极为密集的材料，具有广泛的工业用途。也可用于建筑结构、工具和武器。</CAL_Lead.description>
+  <CAL_Lead.stuffProps.stuffAdjective>铅</CAL_Lead.stuffProps.stuffAdjective>
+
+  <CAL_Tin.label>锡</CAL_Tin.label>
+  <CAL_Tin.description>一种软而有延展性的金属，通常与铜合金化以制成青铜。可用于建筑结构、工具和武器。</CAL_Tin.description>
+  <CAL_Tin.stuffProps.stuffAdjective>锡</CAL_Tin.stuffProps.stuffAdjective>
+
+  <CAL_Aluminum.label>铝</CAL_Aluminum.label>
+  <CAL_Aluminum.description>一种软而轻的金属，通常合金化以提高其强度。可用于建筑结构、工具和武器。</CAL_Aluminum.description>
+  <CAL_Aluminum.stuffProps.stuffAdjective>铝</CAL_Aluminum.stuffProps.stuffAdjective>
+
+  <CAL_Nickel.label>镍</CAL_Nickel.label>
+  <CAL_Nickel.description>一种耐腐蚀金属，主要用于制作镀铬合金或不锈钢。可用于建筑结构、工具和武器。</CAL_Nickel.description>
+  <CAL_Nickel.stuffProps.stuffAdjective>镍</CAL_Nickel.stuffProps.stuffAdjective>
+
+  <CAL_Zinc.label>锌</CAL_Zinc.label>
+  <CAL_Zinc.description>一种硬而脆的金属，通常合金化以提高其耐用性。可用于建筑结构、工具和武器。</CAL_Zinc.description>
+  <CAL_Zinc.stuffProps.stuffAdjective>锌</CAL_Zinc.stuffProps.stuffAdjective>
+
+  <CAL_Bismuth.label>铋</CAL_Bismuth.label>
+  <CAL_Bismuth.description>一种纯白色的金属，即使在雨水中也不发生氧化，可用于建筑结构、工具和武器。</CAL_Bismuth.description>
+  <CAL_Bismuth.stuffProps.stuffAdjective>铋</CAL_Bismuth.stuffProps.stuffAdjective>
+
+  <CAL_Chromium.label>铬</CAL_Chromium.label>
+  <CAL_Chromium.description>一种硬而有光泽的金属，主要用于镀铬或不锈钢。可用于建筑结构、工具和武器。</CAL_Chromium.description>
+  <CAL_Chromium.stuffProps.stuffAdjective>铬</CAL_Chromium.stuffProps.stuffAdjective>
+
+
+</LanguageData>

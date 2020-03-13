@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Decorative Alloys -->
+
+  <CAL_BrassTile.label>黄铜地砖</CAL_BrassTile.label>
+  <CAL_BrassTile.description>纯金地板更便宜的替代品。适合各种豪华房间。</CAL_BrassTile.description>
+
+  <CAL_ChromePlatedSteelTile.label>镀铬钢地砖</CAL_ChromePlatedSteelTile.label>
+  <CAL_ChromePlatedSteelTile.description>镀铬钢地砖提供镜面般的地板，昂贵且需要大量的工作来建造。</CAL_ChromePlatedSteelTile.description>
+
+  <CAL_AurichalcumTile.label>奥利哈刚地砖</CAL_AurichalcumTile.label>
+  <CAL_AurichalcumTile.description>一种充满活力的地板，看起来很华丽。适合各种豪华房间</CAL_AurichalcumTile.description>
+
+  <CAL_SterlingSilverTile.label>银铜合金地砖</CAL_SterlingSilverTile.label>
+  <CAL_SterlingSilverTile.description>一种纯银的替代品，同样美丽但是更便宜。非常适合各种豪华房间。</CAL_SterlingSilverTile.description>
+
+  <CAL_RoseGoldTile.label>玫瑰金地板</CAL_RoseGoldTile.label>
+  <CAL_RoseGoldTile.description>一种令人印象深刻的地板。非常美丽但是昂贵且铺设需要大量的工作。</CAL_RoseGoldTile.description>
+
+  <CAL_ElectrumTile.label>琥珀金地砖</CAL_ElectrumTile.label>
+  <CAL_ElectrumTile.description>一种非常美丽优雅的地板，在金银之间达到完美的平衡。非常适合各种豪华房间。</CAL_ElectrumTile.description>
+
+
+</LanguageData>

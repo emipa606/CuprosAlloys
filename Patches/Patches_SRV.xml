@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- If Survivalist's Additions is installed, add alloy recipes to the crucible -->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="CuprosAlloys.PatchOperationFindMod">
+				<modName>Survivalist's Additions</modName>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SRV_Crucible"]/description</xpath>
+				<value>
+					<description>Allows colonists to smelt and alloy metals at the forge.</description>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="CuprosAlloys.PatchOperationFindMod">
+				<modName>Survivalist's Additions</modName>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="CAL_UtilityAlloys"]/prerequisites</xpath>
+				<value>
+					<prerequisites>
+						<li>SRV_Crucible</li>
+					</prerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="CuprosAlloys.PatchOperationFindMod">
+				<modName>Survivalist's Additions</modName>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="CAL_DecorativeAlloys"]/prerequisites</xpath>
+				<value>
+					<prerequisites>
+						<li>SRV_Crucible</li>
+					</prerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="CuprosAlloys.PatchOperationFindMod">
+				<modName>Survivalist's Additions</modName>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[@Name="CAL_RecipeAlloyBase"]/recipeUsers</xpath>
+				<value>
+					<li>SRV_Forge</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

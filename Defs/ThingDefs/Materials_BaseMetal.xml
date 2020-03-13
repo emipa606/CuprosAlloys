@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="CAL_MetalBase" ParentName="ResourceBase" Abstract="True">
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<thingCategories>
+			<li>CAL_Metals</li>
+		</thingCategories>
+		<stuffProps>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<smeltable>true</smeltable>
+		</stuffProps>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef Name="CAL_OreBase" ParentName="CAL_MetalBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<stackLimit>75</stackLimit>
+	</ThingDef>
+
+	<ThingDef Name="CAL_DullIngotBase" ParentName="CAL_MetalBase" Abstract="True">
+		<graphicData>
+			<texPath>Cupro/Item/Material/Ingot_Dull</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
+		</statBases>
+		<stackLimit>150</stackLimit>
+	</ThingDef>
+
+	<ThingDef Name="CAL_ShinyIngotBase" ParentName="CAL_DullIngotBase" Abstract="True">
+		<graphicData>
+			<texPath>Cupro/Item/Material/Ingot_Shiny</texPath>
+		</graphicData>
+		<statBases>
+			<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
+		</statBases>
+	</ThingDef>
+
+
+	<!--==================== Base Metals ====================-->
+
+
+	<ThingDef ParentName="CAL_OreBase">
+		<defName>CAL_Copper</defName>
+		<label>copper</label>
+		<description>An important metal when dealing with temperature and electricity. Can also be used for building structures, tools, and weapons.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/Copper</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+			<Mass>0.4</Mass>
+			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+		</statBases>
+		<deepCommonality>2.5</deepCommonality>
+		<deepCountPerPortion>35</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>20</min>
+			<max>40</max>
+		</deepLumpSizeRange>
+		<stuffProps>
+			<!-- The categories node is included for CE patching -->
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<commonality>0.90</commonality>
+			<color>(100,80,20)</color>
+			<statFactors>
+				<MaxHitPoints>0.8</MaxHitPoints>
+				<Beauty>2</Beauty>
+				<Cleanliness>1.25</Cleanliness>
+				<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
+				<Flammability>0.2</Flammability>
+				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+				<!-- Deprecated Armor Type <ArmorRating_Electric>0.8</ArmorRating_Electric> -->
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="CAL_OreBase">
+		<defName>CAL_Lead</defName>
+		<label>lead</label>
+		<description>An extremely dense material with a wide array of industrial uses. Can also be used for building structures, tools, and weapons.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/Lead</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+			<Beauty>0</Beauty>
+			<Mass>1.2</Mass>
+			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+			<StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.72</StuffPower_Armor_Heat>
+		</statBases>
+		<deepCommonality>0.4</deepCommonality>
+		<deepCountPerPortion>10</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>10</min>
+			<max>20</max>
+		</deepLumpSizeRange>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<commonality>0.6</commonality>
+			<color>(97,95,103)</color>
+			<statFactors>
+				<MaxHitPoints>0.75</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Cleanliness>0.5</Cleanliness>
+				<Flammability>0.2</Flammability>
+				<MeleeWeapon_CooldownMultiplier>1.15</MeleeWeapon_CooldownMultiplier>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.75</WorkToBuild>
+				<!-- <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.8</ArmorRating_Sharp> -->
+				<!-- Lead is poisonous, so it affects immune speed when made into a bed -->
+				<ImmunityGainSpeedFactor>0.75</ImmunityGainSpeedFactor>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="CAL_OreBase">
+		<defName>CAL_Tin</defName>
+		<label>tin</label>
+		<description>A soft and malleable metal most often alloyed with copper to make bronze. Can be used for building structures, tools, and weapons.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/Tin</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.7</MarketValue>
+			<Mass>0.3</Mass>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.6</BluntDamageMultiplier>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.72</StuffPower_Armor_Heat>
+		</statBases>
+		<deepCommonality>0.5</deepCommonality>
+		<deepCountPerPortion>40</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>2</min>
+			<max>10</max>
+		</deepLumpSizeRange>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<commonality>0.70</commonality>
+			<color>(116,101,96)</color>
+			<statFactors>
+				<MaxHitPoints>0.7</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Flammability>0.2</Flammability>
+				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<!-- <ArmorRating_Sharp>0.9</ArmorRating_Sharp> -->
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="CAL_OreBase">
+		<defName>CAL_Aluminum</defName>
+		<label>aluminum</label>
+		<description>A soft, yet lightweight metal often alloyed to improve its strength. Can be used for building structures, tools, and weapons.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/Aluminum</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.9</MarketValue>
+			<Mass>0.2</Mass>
+			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+			<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.72</StuffPower_Armor_Heat>
+		</statBases>
+		<deepCommonality>2.5</deepCommonality>
+		<deepCountPerPortion>40</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>20</min>
+			<max>40</max>
+		</deepLumpSizeRange>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<commonality>0.90</commonality>
+			<color>(183,184,179)</color>
+			<statOffsets>
+				<Beauty>2</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.8</MaxHitPoints>
+				<Cleanliness>1.1</Cleanliness>
+				<Flammability>0.2</Flammability>
+				<DoorOpenSpeed>1.1</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<!-- <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.9</ArmorRating_Blunt> -->
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="CAL_OreBase">
+		<defName>CAL_Nickel</defName>
+		<label>nickel</label>
+		<description>A corrosion resistant metal used mainly for making chrome-plated or stainless steel. Can be used for building structures, tools, and weapons.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/Nickel</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<Mass>0.3</Mass>
+			<SharpDamageMultiplier>0.9</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.85</BluntDamageMultiplier>
+			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.72</StuffPower_Armor_Heat>
+		</statBases>
+		<deepCommonality>1.2</deepCommonality>
+		<deepCountPerPortion>40</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>2</min>
+			<max>6</max>
+		</deepLumpSizeRange>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<commonality>0.60</commonality>
+			<color>(212,209,194)</color>
+			<statFactors>
+				<MaxHitPoints>0.85</MaxHitPoints>
+				<Flammability>0.2</Flammability>
+				<MeleeWeapon_CooldownMultiplier>0.95</MeleeWeapon_CooldownMultiplier>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<!-- <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.8</ArmorRating_Blunt> -->
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="CAL_OreBase">
+		<defName>CAL_Zinc</defName>
+		<label>zinc</label>
+		<description>A hard and brittle metal often alloyed to improve its durability. Can be used for building structures, tools, and weapons.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/Zinc</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.8</MarketValue>
+			<Mass>0.3</Mass>
+			<SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+			<StuffPower_Armor_Blunt>0.75</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.72</StuffPower_Armor_Heat>
+		</statBases>
+		<deepCommonality>1.5</deepCommonality>
+		<deepCountPerPortion>40</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>5</min>
+			<max>10</max>
+		</deepLumpSizeRange>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<commonality>0.80</commonality>
+			<color>(165,182,199)</color>
+			<statFactors>
+				<MaxHitPoints>0.75</MaxHitPoints>
+				<Cleanliness>0.95</Cleanliness>
+				<Flammability>0.2</Flammability>
+				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+				<WorkToMake>0.75</WorkToMake>
+				<WorkToBuild>0.75</WorkToBuild>
+				<!-- <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.75</ArmorRating_Blunt> -->
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="CAL_OreBase">
+		<defName>CAL_Bismuth</defName>
+		<label>bismuth</label>
+		<description>A metal which oxidizes in a beautiful rainbow pattern. Can be used for building structures, tools, and weapons.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/Bismuth</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<deepCommonality>1</deepCommonality>
+		<deepCountPerPortion>40</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>10</min>
+			<max>20</max>
+		</deepLumpSizeRange>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<commonality>1</commonality>
+			<color>(66,160,114)</color>
+			<statFactors>
+				<MaxHitPoints>0.9</MaxHitPoints>
+				<Flammability>0.2</Flammability>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="CAL_OreBase">
+		<defName>CAL_Chromium</defName>
+		<label>chromium</label>
+		<description>A hard and shiny metal used mainly for making chrome-plated or stainless steel. Can be used for building structures, tools, and weapons.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/Chromium</texPath>
+		</graphicData>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<statBases>
+			<MarketValue>4</MarketValue>
+			<Mass>0.04</Mass>
+			<SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<stackLimit>500</stackLimit>
+		<smallVolume>true</smallVolume>
+		<deepCommonality>0.75</deepCommonality>
+		<deepCountPerPortion>7</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>2</min>
+			<max>10</max>
+		</deepLumpSizeRange>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<stuffAdjective>chrome</stuffAdjective>
+			<commonality>0.03</commonality>
+			<color>(190,205,210)</color>
+			<statOffsets>
+				<Beauty>6</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MarketValue>1.1</MarketValue>
+				<MaxHitPoints>1.1</MaxHitPoints>
+				<Beauty>2</Beauty>
+				<Cleanliness>1.5</Cleanliness>
+				<Flammability>0.15</Flammability>
+				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+				<!-- <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+				<ArmorRating_Blunt>1.1</ArmorRating_Blunt> -->
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

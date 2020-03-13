@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--==================== Advanced Alloys ====================-->
+	
+	<TerrainDef Name="CAL_AdvancedFloorBase" ParentName="CAL_AlloyFloorBase" Abstract="True">
+		<designatorDropdown>AdvancedTilesGroup</designatorDropdown>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="CAL_AdvancedFloorBase">
+		<defName>CAL_BlackSteelTile</defName>
+		<label>black steel tile</label>
+		<description>Strong metal tiles, for a dark and clean look. Pretty, but labor-intensive.</description>
+		<color>(30,28,30)</color>
+		<statBases>
+			<Beauty>1</Beauty>
+			<WorkToBuild>1500</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_BlackSteel>5</CAL_BlackSteel>
+		</costList>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="CAL_AdvancedFloorBase">
+		<defName>CAL_PlastinTile</defName>
+		<label>plastin tile</label>
+		<description>Metal tiles, for that spaceship look. Very expensive and requires a lot of work to build.</description>
+		<color>(100,124,139)</color>
+		<statBases>
+			<Beauty>1</Beauty>
+			<WorkToBuild>1800</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_Plastin>5</CAL_Plastin>
+		</costList>
+	</TerrainDef>
+	
+		
+	<TerrainDef ParentName="CAL_AdvancedFloorBase">
+		<defName>CAL_CopperTile</defName>
+		<label>sanitary copper tile</label>
+		<description>Naturally antimicrobial copper tiles useful in hospitals to help prevent patients from getting various infections.</description>
+		<color>(100,80,20)</color>
+		<statBases>
+			<Cleanliness>0.3</Cleanliness>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_Copper>5</CAL_Copper>
+		</costList>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="CAL_AdvancedFloorBase">
+		<defName>CAL_LeadTile</defName>
+		<label>lead tile</label>
+		<description>Lead tiles, for a dark look. Not healthy to be around, but quick to build.</description>
+		<color>(97,95,103)</color>
+		<statBases>
+			<Cleanliness>-0.2</Cleanliness>
+			<WorkToBuild>200</WorkToBuild>
+		</statBases>
+		<costList>
+			<CAL_Lead>5</CAL_Lead>
+		</costList>
+	</TerrainDef>
+
+</Defs>

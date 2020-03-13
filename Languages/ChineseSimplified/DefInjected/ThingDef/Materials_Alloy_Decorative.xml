@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Decorative Alloys -->
+
+  <CAL_Brass.label>黄铜</CAL_Brass.label>
+  <CAL_Brass.description>一种铜、铝或锌的合金，其与黄金相似而被重视。可用于建筑结构、工具和武器</CAL_Brass.description>
+  <CAL_Brass.stuffProps.stuffAdjective>黄铜</CAL_Brass.stuffProps.stuffAdjective>
+
+  <CAL_ChromePlatedSteel.label>镀铬钢</CAL_ChromePlatedSteel.label>
+  <CAL_ChromePlatedSteel.description>镀有镍和铬的钢，以其高度抛光的外观而被重视。可用于建筑结构、工具和武器。</CAL_ChromePlatedSteel.description>
+  <CAL_ChromePlatedSteel.stuffProps.stuffAdjective>镀铬钢</CAL_ChromePlatedSteel.stuffProps.stuffAdjective>
+
+  <CAL_Aurichalcum.label>奥里哈刚</CAL_Aurichalcum.label>
+  <CAL_Aurichalcum.description>一种珍贵的铜和金合金，带有一种鲜艳的红色。可用于建筑结构、工具和武器。</CAL_Aurichalcum.description>
+  <CAL_Aurichalcum.stuffProps.stuffAdjective>奥里哈刚</CAL_Aurichalcum.stuffProps.stuffAdjective>
+
+  <CAL_SterlingSilver.label>银铜合金</CAL_SterlingSilver.label>
+  <CAL_SterlingSilver.description>一种珍贵的银和铜合金，通常用于制作雕塑。也可以用于建筑结构、工具和武器。</CAL_SterlingSilver.description>
+  <CAL_SterlingSilver.stuffProps.stuffAdjective>银铜合金</CAL_SterlingSilver.stuffProps.stuffAdjective>
+
+  <CAL_RoseGold.label>玫瑰金</CAL_RoseGold.label>
+  <CAL_RoseGold.description>一种珍贵的金和铜合金，常用于制作雕塑。也可以用于建筑结构、工具和武器。</CAL_RoseGold.description>
+  <CAL_RoseGold.stuffProps.stuffAdjective>玫瑰金</CAL_RoseGold.stuffProps.stuffAdjective>
+
+  <CAL_Electrum.label>琥珀金</CAL_Electrum.label>
+  <CAL_Electrum.description>一种珍贵的金和银合金，常用于制作雕塑。也可以用于建筑结构、工具和武器。</CAL_Electrum.description>
+  <CAL_Electrum.stuffProps.stuffAdjective>琥珀金</CAL_Electrum.stuffProps.stuffAdjective>
+
+
+</LanguageData>
