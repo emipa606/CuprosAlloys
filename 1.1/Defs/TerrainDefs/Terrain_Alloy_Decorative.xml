@@ -5,7 +5,10 @@
 	<!--==================== Decorative Alloys ====================-->
 	
 	<TerrainDef Name="CAL_DecorativeFloorBase" ParentName="CAL_AlloyFloorBase" Abstract="True">
-		<designatorDropdown>DecorativeTilesGroup</designatorDropdown>
+		<designatorDropdown>DecorativeTilesGroup</designatorDropdown> 
+		<tags>
+		  <li>FineFloor</li>
+		</tags>
 	</TerrainDef>
 	
 	<TerrainDef ParentName="CAL_DecorativeFloorBase">
@@ -21,7 +24,7 @@
 		</statBases>
 		<costList>
 			<CAL_Brass>5</CAL_Brass>
-		</costList>
+		</costList>   
 	</TerrainDef>
 	
 	<TerrainDef ParentName="CAL_DecorativeFloorBase">
