@@ -1,97 +1,87 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
-	
-	<!--==================== Basic Metals ====================-->
-	
-	<TerrainDef Name="CAL_BasicFloorBase" ParentName="CAL_AlloyFloorBase" Abstract="True">
-		<designatorDropdown>BasicTilesGroup</designatorDropdown>
-	</TerrainDef>
-	
-	<TerrainDef ParentName="CAL_BasicFloorBase">
-		<defName>CAL_TinTile</defName>
-		<label>tin tile</label>
-		<description>Tin tiles, for a utilitarian look. Quick to build, but neutral in terms of beauty.</description>
-		<color>(116,101,96)</color>
-		<statBases>
-			<Beauty>0</Beauty>
-			<WorkToBuild>250</WorkToBuild>
-		</statBases>
-		<costList>
-			<CAL_Tin>5</CAL_Tin>
-		</costList>
-	</TerrainDef>
-	
-	<TerrainDef ParentName="CAL_BasicFloorBase">
-		<defName>CAL_AluminumTile</defName>
-		<label>aluminum tile</label>
-		<description>Aluminum tiles, for a utilitarian look. Quick to build, but neutral in terms of beauty.</description>
-		<color>(183,184,179)</color>
-		<statBases>
-			<Beauty>0</Beauty>
-			<WorkToBuild>200</WorkToBuild>
-		</statBases>
-		<costList>
-			<CAL_Aluminum>5</CAL_Aluminum>
-		</costList>
-	</TerrainDef>
-	
-	<TerrainDef ParentName="CAL_BasicFloorBase">
-		<defName>CAL_NickelTile</defName>
-		<label>nickel tile</label>
-		<description>Nickel tiles, for a bright look. Quick to build, but neutral in terms of beauty.</description>
-		<color>(212,209,194)</color>
-		<statBases>
-			<Beauty>0</Beauty>
-			<WorkToBuild>200</WorkToBuild>
-		</statBases>
-		<costList>
-			<CAL_Nickel>5</CAL_Nickel>
-		</costList>
-	</TerrainDef>
-	
-	<TerrainDef ParentName="CAL_BasicFloorBase">
-		<defName>CAL_ZincTile</defName>
-		<label>zinc tile</label>
-		<description>Zinc tiles, for a bright look. Quick to build, but neutral in terms of beauty.</description>
-		<color>(165,182,199)</color>
-		<statBases>
-			<Beauty>0</Beauty>
-			<Cleanliness>-0.05</Cleanliness>
-			<WorkToBuild>200</WorkToBuild>
-		</statBases>
-		<costList>
-			<CAL_Zinc>5</CAL_Zinc>
-		</costList>
-	</TerrainDef>
-	
-	<TerrainDef ParentName="CAL_BasicFloorBase">
-		<defName>CAL_BismuthTile</defName>
-		<label>bismuth tile</label>
-		<description>Oxidized bismuth tiles, for a rainbow look. Slow to build, and provides a small amount of beauty.</description>
-		<texturePath>Cupro/Terrain/BismuthFloorTile</texturePath>
-		<statBases>
-			<Beauty>2</Beauty>
-			<WorkToBuild>800</WorkToBuild>
-		</statBases>
-		<costList>
-			<CAL_Bismuth>5</CAL_Bismuth>
-		</costList>
-	</TerrainDef>
-	
-	<TerrainDef ParentName="CAL_BasicFloorBase">
-		<defName>CAL_ChromiumTile</defName>
-		<label>chromium tile</label>
-		<description>Chromium tiles provide a bright, mirrored floor. Very expensive and requires a lot of work to build.</description>
-		<texturePath>Cupro/Terrain/ShinyFloorTile</texturePath>
-		<color>(165,182,199)</color>
-		<statBases>
-			<Beauty>3</Beauty>
-			<WorkToBuild>1500</WorkToBuild>
-		</statBases>
-		<costList>
-			<CAL_Chromium>50</CAL_Chromium>
-		</costList>
-	</TerrainDef>
-
+  <!--==================== Basic Metals ====================-->
+  <TerrainDef Name="CAL_BasicFloorBase" ParentName="CAL_AlloyFloorBase" Abstract="True">
+    <designatorDropdown>BasicTilesGroup</designatorDropdown>
+  </TerrainDef>
+  <TerrainDef ParentName="CAL_BasicFloorBase">
+    <defName>CAL_TinTile</defName>
+    <label>tin tile</label>
+    <description>Tin tiles, for a utilitarian look. Quick to build, but neutral in terms of beauty.</description>
+    <color>(116,101,96)</color>
+    <statBases>
+      <Beauty>0</Beauty>
+      <WorkToBuild>250</WorkToBuild>
+    </statBases>
+    <costList>
+      <CAL_Tin>5</CAL_Tin>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="CAL_BasicFloorBase">
+    <defName>CAL_AluminumTile</defName>
+    <label>aluminum tile</label>
+    <description>Aluminum tiles, for a utilitarian look. Quick to build, but neutral in terms of beauty.</description>
+    <color>(183,184,179)</color>
+    <statBases>
+      <Beauty>0</Beauty>
+      <WorkToBuild>200</WorkToBuild>
+    </statBases>
+    <costList>
+      <CAL_Aluminum>5</CAL_Aluminum>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="CAL_BasicFloorBase">
+    <defName>CAL_NickelTile</defName>
+    <label>nickel tile</label>
+    <description>Nickel tiles, for a bright look. Quick to build, but neutral in terms of beauty.</description>
+    <color>(212,209,194)</color>
+    <statBases>
+      <Beauty>0</Beauty>
+      <WorkToBuild>200</WorkToBuild>
+    </statBases>
+    <costList>
+      <CAL_Nickel>5</CAL_Nickel>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="CAL_BasicFloorBase">
+    <defName>CAL_ZincTile</defName>
+    <label>zinc tile</label>
+    <description>Zinc tiles, for a bright look. Quick to build, but neutral in terms of beauty.</description>
+    <color>(165,182,199)</color>
+    <statBases>
+      <Beauty>0</Beauty>
+      <Cleanliness>-0.05</Cleanliness>
+      <WorkToBuild>200</WorkToBuild>
+    </statBases>
+    <costList>
+      <CAL_Zinc>5</CAL_Zinc>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="CAL_BasicFloorBase">
+    <defName>CAL_BismuthTile</defName>
+    <label>bismuth tile</label>
+    <description>Oxidized bismuth tiles, for a rainbow look. Slow to build, and provides a small amount of beauty.</description>
+    <texturePath>Cupro/Terrain/BismuthFloorTile</texturePath>
+    <statBases>
+      <Beauty>2</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+    </statBases>
+    <costList>
+      <CAL_Bismuth>5</CAL_Bismuth>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="CAL_BasicFloorBase">
+    <defName>CAL_ChromiumTile</defName>
+    <label>chromium tile</label>
+    <description>Chromium tiles provide a bright, mirrored floor. Very expensive and requires a lot of work to build.</description>
+    <texturePath>Cupro/Terrain/ShinyFloorTile</texturePath>
+    <color>(165,182,199)</color>
+    <statBases>
+      <Beauty>3</Beauty>
+      <WorkToBuild>1500</WorkToBuild>
+    </statBases>
+    <costList>
+      <CAL_Chromium>50</CAL_Chromium>
+    </costList>
+  </TerrainDef>
 </Defs>

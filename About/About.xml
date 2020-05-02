@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Cupro's Alloys (Continued)</name>
-    <packageId>Mlie.CuprosAlloys</packageId>
-	<author>Mlie</author>
-	<url>https://github.com/emipa606/CuprosAlloys</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of The White Crayons mod for RimWorld 1.1
+  <packageId>Mlie.CuprosAlloys</packageId>
+  <author>Mlie</author>
+  <url>https://github.com/emipa606/CuprosAlloys</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of The White Crayons mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543189281
 
 [img]https://i.imgur.com/GYswkZ7.png[/img]

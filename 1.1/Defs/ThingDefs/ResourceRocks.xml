@@ -1,220 +1,211 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<ThingDef ParentName="RockBase">
-		<defName>CAL_MineableBauxite</defName>
-		<label>bauxite deposit</label>
-		<description>A vein of aluminum ore.</description>
-		<graphicData>
-			<texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<color>(157,99,59)</color>
-			<colorTwo>(151,63,30)</colorTwo>
-		</graphicData>
-		<statBases>
-			<Beauty>-1</Beauty>
-			<MaxHitPoints>1100</MaxHitPoints>
-		</statBases>
-		<building>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>CAL_Aluminum</mineableThing>
-			<mineableYield>35</mineableYield>
-			<mineableScatterCommonality>0.65</mineableScatterCommonality>
-			<mineableScatterLumpSizeRange>
-				<min>6</min>
-				<max>18</max>
-			</mineableScatterLumpSizeRange>
-		</building>
-	</ThingDef>
-
-	<ThingDef ParentName="RockBase">
-		<defName>CAL_MineableCassiterite</defName>
-		<label>cassiterite deposit</label>
-		<description>A vein of tin ore.</description>
-		<graphicData>
-			<texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<color>(130,81,38)</color>
-			<colorTwo>(57,51,48)</colorTwo>
-		</graphicData>
-		<statBases>
-			<Beauty>1</Beauty>
-			<MaxHitPoints>1000</MaxHitPoints>
-		</statBases>
-		<building>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>CAL_Tin</mineableThing>
-			<mineableYield>35</mineableYield>
-			<mineableScatterCommonality>0.5</mineableScatterCommonality>
-			<mineableScatterLumpSizeRange>
-				<min>6</min>
-				<max>18</max>
-			</mineableScatterLumpSizeRange>
-		</building>
-	</ThingDef>
-	
-	<ThingDef ParentName="RockBase">
-		<defName>CAL_MineableSphalerite</defName>
-		<label>sphalerite deposit</label>
-		<description>A vein of zinc ore.</description>
-		<graphicData>
-			<texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<color>(114,98,89)</color>
-			<colorTwo>(82,89,92)</colorTwo>
-		</graphicData>
-		<statBases>
-			<MaxHitPoints>1050</MaxHitPoints>
-		</statBases>
-		<building>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>CAL_Zinc</mineableThing>
-			<mineableYield>35</mineableYield>
-			<mineableScatterCommonality>0.5</mineableScatterCommonality>
-			<mineableScatterLumpSizeRange>
-				<min>6</min>
-				<max>18</max>
-			</mineableScatterLumpSizeRange>
-		</building>
-	</ThingDef>
-	
-	<ThingDef ParentName="RockBase">
-		<defName>CAL_MineableGarnierite</defName>
-		<label>garnierite deposit</label>
-		<description>A vein of nickel ore.</description>
-		<graphicData>
-			<texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<color>(135,130,95)</color>
-			<colorTwo>(54,145,104)</colorTwo>
-		</graphicData>
-		<statBases>
-			<MaxHitPoints>1000</MaxHitPoints>
-		</statBases>
-		<building>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>CAL_Nickel</mineableThing>
-			<mineableYield>35</mineableYield>
-			<mineableScatterCommonality>0.5</mineableScatterCommonality>
-			<mineableScatterLumpSizeRange>
-				<min>6</min>
-				<max>18</max>
-			</mineableScatterLumpSizeRange>
-		</building>
-	</ThingDef>	
-	
-	<ThingDef ParentName="RockBase">
-		<defName>CAL_MineableBismuthinite</defName>
-		<label>bismuthinite deposit</label>
-		<description>A vein of bismuth ore.</description>
-		<graphicData>
-			<texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<color>(135,135,105)</color>
-			<colorTwo>(90,130,135)</colorTwo>
-		</graphicData>
-		<statBases>
-			<MaxHitPoints>1200</MaxHitPoints>
-		</statBases>
-		<building>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>CAL_Bismuth</mineableThing>
-			<mineableYield>35</mineableYield>
-			<mineableScatterCommonality>0.5</mineableScatterCommonality>
-			<mineableScatterLumpSizeRange>
-				<min>6</min>
-				<max>18</max>
-			</mineableScatterLumpSizeRange>
-		</building>
-	</ThingDef>	
-	
-	<ThingDef ParentName="RockBase">
-		<defName>CAL_MineableMalachite</defName>
-		<label>malachite deposit</label>
-		<description>A vein of copper ore.</description>
-		<graphicData>
-			<texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<color>(135,130,95)</color>
-			<colorTwo>(155,190,165)</colorTwo>
-		</graphicData>
-		<statBases>
-			<Beauty>2</Beauty>
-			<MaxHitPoints>1100</MaxHitPoints>
-		</statBases>
-		<building>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>CAL_Copper</mineableThing>
-			<mineableYield>35</mineableYield>
-			<mineableScatterCommonality>0.65</mineableScatterCommonality>
-			<mineableScatterLumpSizeRange>
-				<min>8</min>
-				<max>25</max>
-			</mineableScatterLumpSizeRange>
-		</building>
-	</ThingDef>
-
-	<ThingDef ParentName="RockBase">
-		<defName>CAL_MineableGalena</defName>
-		<label>galena deposit</label>
-		<description>A vein of lead ore. Traces of silver are also present.</description>
-		<graphicData>
-			<texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<color>(114,92,83)</color>
-			<colorTwo>(50,45,75)</colorTwo>
-		</graphicData>
-		<statBases>
-			<Beauty>2</Beauty>
-			<MaxHitPoints>1800</MaxHitPoints>
-		</statBases>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<killedLeavings>
-			<Silver>5</Silver>
-		</killedLeavings>
-		<building>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>CAL_Lead</mineableThing>
-			<mineableYield>30</mineableYield>
-			<mineableScatterCommonality>0.65</mineableScatterCommonality>
-			<mineableScatterLumpSizeRange>
-				<min>6</min>
-				<max>17</max>
-			</mineableScatterLumpSizeRange>
-		</building>
-	</ThingDef>
-	
-	<ThingDef ParentName="RockBase">
-		<defName>CAL_MineableChromite</defName>
-		<label>chromite deposit</label>
-		<description>A vein of chromium ore.</description>
-		<graphicData>
-			<texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<color>(114,92,83)</color>
-			<colorTwo>(75,75,80)</colorTwo>
-		</graphicData>
-		<statBases>
-			<MaxHitPoints>2300</MaxHitPoints>
-		</statBases>
-		<building>
-			<isResourceRock>true</isResourceRock>
-			<mineableThing>CAL_Chromium</mineableThing>
-			<mineableYield>35</mineableYield>
-			<mineableScatterCommonality>0.05</mineableScatterCommonality>
-			<mineableScatterLumpSizeRange>
-				<min>2</min>
-				<max>8</max>
-			</mineableScatterLumpSizeRange>
-		</building>
-	</ThingDef>	
-
+  <ThingDef ParentName="RockBase">
+    <defName>CAL_MineableBauxite</defName>
+    <label>bauxite deposit</label>
+    <description>A vein of aluminum ore.</description>
+    <graphicData>
+      <texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(157,99,59)</color>
+      <colorTwo>(151,63,30)</colorTwo>
+    </graphicData>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <MaxHitPoints>1100</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CAL_Aluminum</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.65</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>6</min>
+        <max>18</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>CAL_MineableCassiterite</defName>
+    <label>cassiterite deposit</label>
+    <description>A vein of tin ore.</description>
+    <graphicData>
+      <texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(130,81,38)</color>
+      <colorTwo>(57,51,48)</colorTwo>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CAL_Tin</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.5</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>6</min>
+        <max>18</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>CAL_MineableSphalerite</defName>
+    <label>sphalerite deposit</label>
+    <description>A vein of zinc ore.</description>
+    <graphicData>
+      <texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(114,98,89)</color>
+      <colorTwo>(82,89,92)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1050</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CAL_Zinc</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.5</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>6</min>
+        <max>18</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>CAL_MineableGarnierite</defName>
+    <label>garnierite deposit</label>
+    <description>A vein of nickel ore.</description>
+    <graphicData>
+      <texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,130,95)</color>
+      <colorTwo>(54,145,104)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CAL_Nickel</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.5</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>6</min>
+        <max>18</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>CAL_MineableBismuthinite</defName>
+    <label>bismuthinite deposit</label>
+    <description>A vein of bismuth ore.</description>
+    <graphicData>
+      <texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,135,105)</color>
+      <colorTwo>(90,130,135)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CAL_Bismuth</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.5</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>6</min>
+        <max>18</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>CAL_MineableMalachite</defName>
+    <label>malachite deposit</label>
+    <description>A vein of copper ore.</description>
+    <graphicData>
+      <texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,130,95)</color>
+      <colorTwo>(155,190,165)</colorTwo>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <MaxHitPoints>1100</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CAL_Copper</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.65</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>8</min>
+        <max>25</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>CAL_MineableGalena</defName>
+    <label>galena deposit</label>
+    <description>A vein of lead ore. Traces of silver are also present.</description>
+    <graphicData>
+      <texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(114,92,83)</color>
+      <colorTwo>(50,45,75)</colorTwo>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <MaxHitPoints>1800</MaxHitPoints>
+    </statBases>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <killedLeavings>
+      <Silver>5</Silver>
+    </killedLeavings>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CAL_Lead</mineableThing>
+      <mineableYield>30</mineableYield>
+      <mineableScatterCommonality>0.65</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>6</min>
+        <max>17</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>CAL_MineableChromite</defName>
+    <label>chromite deposit</label>
+    <description>A vein of chromium ore.</description>
+    <graphicData>
+      <texPath>Cupro/Object/Structure/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(114,92,83)</color>
+      <colorTwo>(75,75,80)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2300</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CAL_Chromium</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.05</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>2</min>
+        <max>8</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
 </Defs>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Utility Alloys -->
+
+  <CAL_PlumchalcumTile.label>plumchalcum tile</CAL_PlumchalcumTile.label>
+  <CAL_PlumchalcumTile.description>Plumchalcum tiles, for a dark look. Quick to build.</CAL_PlumchalcumTile.description>
+
+  <CAL_DuraluminTile.label>duralumin tile</CAL_DuraluminTile.label>
+  <CAL_DuraluminTile.description>Duralumin tiles, for a light and clean look.</CAL_DuraluminTile.description>
+
+  <CAL_ZamakTile.label>zamak tile</CAL_ZamakTile.label>
+  <CAL_ZamakTile.description>Zamak tiles, for a utilitarian look.</CAL_ZamakTile.description>
+
+  <CAL_BismuthBronzeTile.label>bismuth bronze tile</CAL_BismuthBronzeTile.label>
+  <CAL_BismuthBronzeTile.description>Bismuth bronze tiles, for a neutral look.</CAL_BismuthBronzeTile.description>
+
+  <CAL_BronzeTile.label>bronze tile</CAL_BronzeTile.label>
+  <CAL_BronzeTile.description>Bronze tiles, for a neutral look.</CAL_BronzeTile.description>
+
+  <CAL_CupronickelTile.label>cupronickel tile</CAL_CupronickelTile.label>
+  <CAL_CupronickelTile.description>Cupronickel tiles, for a utilitarian look.</CAL_CupronickelTile.description>
+
+  <CAL_StainlessSteelTile.label>stainless steel tile</CAL_StainlessSteelTile.label>
+  <CAL_StainlessSteelTile.description>Stainless steel tiles, for keeping rooms clean. Neutral in terms of looks and very slow to build.</CAL_StainlessSteelTile.description>
+
+  <CAL_HepatzionTile.label>hepatzion tile</CAL_HepatzionTile.label>
+  <CAL_HepatzionTile.description>Hepatzion tiles, for a dark and clean look. Pretty, but labor-intensive.</CAL_HepatzionTile.description>
+
+
+</LanguageData>

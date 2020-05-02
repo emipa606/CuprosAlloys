@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CAL_MineableBauxite.label>bauxite deposit</CAL_MineableBauxite.label>
+  <CAL_MineableBauxite.description>A vein of aluminum ore.</CAL_MineableBauxite.description>
+
+  <CAL_MineableCassiterite.label>cassiterite deposit</CAL_MineableCassiterite.label>
+  <CAL_MineableCassiterite.description>A vein of tin ore.</CAL_MineableCassiterite.description>
+
+  <CAL_MineableSphalerite.label>sphalerite deposit</CAL_MineableSphalerite.label>
+  <CAL_MineableSphalerite.description>A vein of zinc ore.</CAL_MineableSphalerite.description>
+
+  <CAL_MineableGarnierite.label>garnierite deposit</CAL_MineableGarnierite.label>
+  <CAL_MineableGarnierite.description>A vein of nickel ore.</CAL_MineableGarnierite.description>
+
+  <CAL_MineableBismuthinite.label>bismuthinite deposit</CAL_MineableBismuthinite.label>
+  <CAL_MineableBismuthinite.description>A vein of bismuth ore.</CAL_MineableBismuthinite.description>
+
+  <CAL_MineableMalachite.label>malachite deposit</CAL_MineableMalachite.label>
+  <CAL_MineableMalachite.description>A vein of copper ore.</CAL_MineableMalachite.description>
+
+  <CAL_MineableGalena.label>galena deposit</CAL_MineableGalena.label>
+  <CAL_MineableGalena.description>A vein of lead ore. Traces of silver are also present.</CAL_MineableGalena.description>
+
+  <CAL_MineableChromite.label>chromite deposit</CAL_MineableChromite.label>
+  <CAL_MineableChromite.description>A vein of chromium ore.</CAL_MineableChromite.description>
+
+
+</LanguageData>
