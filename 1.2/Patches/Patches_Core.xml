@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Silver"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>CAL_Metals</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Gold"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>CAL_Metals</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Steel"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>CAL_Conducting</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Plasteel"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>CAL_Metals</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Uranium"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>CAL_Metals</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Steel"]/stuffProps/categories</xpath>
+    <value>
+      <li>Conducting</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="WaterproofConduit"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="WaterproofConduit"]/constructEffect</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="WaterproofConduit"]</xpath>
+    <value>
+      <stuffCategories>
+        <li>Conducting</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="PowerConduit"]</xpath>
+    <value>
+      <costStuffCount>1</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="WaterproofConduit"]</xpath>
+    <value>
+      <costStuffCount>10</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ComponentIndustrial"]/ingredients</xpath>
+    <value>
+      <ingredients>
+        <li>
+          <filter>
+            <categories>
+              <li>CAL_Conducting</li>
+            </categories>
+          </filter>
+          <count>12</count>
+        </li>
+      </ingredients>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ComponentIndustrial"]/fixedIngredientFilter</xpath>
+    <value>
+      <fixedIngredientFilter>
+        <categories>
+          <li>CAL_Conducting</li>
+        </categories>
+      </fixedIngredientFilter>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ComponentSpacer"]/ingredients</xpath>
+    <value>
+      <ingredients>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>ComponentIndustrial</li>
+            </thingDefs>
+          </filter>
+          <count>1</count>
+        </li>
+        <li>
+          <filter>
+            <categories>
+              <li>CAL_Conducting</li>
+            </categories>
+          </filter>
+          <count>20</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Plasteel</li>
+            </thingDefs>
+          </filter>
+          <count>10</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Gold</li>
+            </thingDefs>
+          </filter>
+          <count>0.3</count>
+        </li>
+      </ingredients>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ComponentSpacer"]/fixedIngredientFilter</xpath>
+    <value>
+      <fixedIngredientFilter>
+        <categories>
+          <li>CAL_Conducting</li>
+        </categories>
+        <thingDefs>
+          <li>ComponentIndustrial</li>
+          <li>Plasteel</li>
+          <li>Gold</li>
+        </thingDefs>
+      </fixedIngredientFilter>
+    </value>
+  </Operation>
+</Patch>

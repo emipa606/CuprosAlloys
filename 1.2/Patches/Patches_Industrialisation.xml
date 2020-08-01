@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- If Industrialisation is installed, add aluminium and copper to recipes -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="CuprosAlloys.PatchOperationFindMod">
+        <modName>Industrialisation</modName>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakePlumchalcum"]/ingredients/li[2]/filter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakePlumchalcum"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeDuralumin"]/ingredients/li[1]/filter/thingDefs</xpath>
+        <value>
+          <li>Ind_Aluminium</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeDuralumin"]/ingredients/li[2]/filter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeDuralumin"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>Ind_Aluminium</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeDuralumin"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeBronze"]/ingredients/li[1]/filter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeBronze"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeHepatzion"]/ingredients/li[1]/filter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeHepatzion"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeBrass"]/ingredients/li[1]/filter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeBrass"]/ingredients/li[2]/filter/thingDefs</xpath>
+        <value>
+          <li>Ind_Aluminium</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeBrass"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeBrass"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>Ind_Aluminium</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeAurichalcum"]/ingredients/li[1]/filter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeAurichalcum"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeSterlingSilver"]/ingredients/li[2]/filter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeSterlingSilver"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeRoseGold"]/ingredients/li[2]/filter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="CAL_MakeRoseGold"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>Ind_Copper</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
