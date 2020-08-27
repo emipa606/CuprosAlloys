@@ -46,30 +46,16 @@
       <li>Conducting</li>
     </value>
   </Operation>
-  <Operation Class="PatchOperationRemove">
-    <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="WaterproofConduit"]/costList</xpath>
-  </Operation>
-  <Operation Class="PatchOperationRemove">
-    <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="WaterproofConduit"]/constructEffect</xpath>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="WaterproofConduit"]</xpath>
-    <value>
-      <stuffCategories>
-        <li>Conducting</li>
-      </stuffCategories>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="PowerConduit"]</xpath>
     <value>
-      <costStuffCount>1</costStuffCount>
+      <designatorDropdown>PowerCablesGroup</designatorDropdown>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="WaterproofConduit"]</xpath>
     <value>
-      <costStuffCount>10</costStuffCount>
+      <designatorDropdown Inherit="False">WaterproofPowerCablesGroup</designatorDropdown>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
