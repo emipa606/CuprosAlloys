@@ -77,7 +77,7 @@
     <defName>CAL_CupronickelTile</defName>
     <label>cupronickel tile</label>
     <description>Cupronickel tiles, for a utilitarian look.</description>
-    <color>(87,69,34)</color>
+    <color>(190,180,175)</color>
     <statBases>
       <Beauty>1</Beauty>
       <WorkToBuild>600</WorkToBuild>
