@@ -34,7 +34,7 @@
     <defName>CAL_CopperTile</defName>
     <label>sanitary copper tile</label>
     <description>Naturally antimicrobial copper tiles useful in hospitals to help prevent patients from getting various infections.</description>
-    <color>(100,80,20)</color>
+    <color>(72,45,20)</color>
     <statBases>
       <Cleanliness>0.3</Cleanliness>
       <WorkToBuild>500</WorkToBuild>

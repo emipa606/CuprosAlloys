@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <CAL_UtilityAlloys.label>utility alloys</CAL_UtilityAlloys.label>
-  <CAL_UtilityAlloys.description>Research alloying metals for utility purposes. \n  -Unlocks Plumchalcum, Duralumin, Zamak, Bismuth Bronze, Bronze, Cupronickel, Stainless Steel, and Hepatzion.</CAL_UtilityAlloys.description>
-
-  <CAL_DecorativeAlloys.label>decorative alloys</CAL_DecorativeAlloys.label>
-  <CAL_DecorativeAlloys.description>Research alloying metals for decorative purposes. \n  -Unlocks Brass, Chrome-plated Steel, Aurichalcum, Sterling Silver, Rose Gold, and Electrum.</CAL_DecorativeAlloys.description>
-
-  <CAL_AdvancedAlloys.label>advanced alloys</CAL_AdvancedAlloys.label>
-  <CAL_AdvancedAlloys.description>Research more advanced alloys. \n  -Unlocks Black Steel and Plastin.</CAL_AdvancedAlloys.description>
-
+  <!--<CAL_UtilityAlloys.label>utility alloys</CAL_UtilityAlloys.label>-->
+  <!--<CAL_UtilityAlloys.description>Research alloying metals for utility purposes. \n  -Unlocks Plumchalcum, Duralumin, Zamak, Bismuth Bronze, Bronze, Cupronickel, Stainless Steel, and Hepatzion.</CAL_UtilityAlloys.description>-->
+  <!--<CAL_DecorativeAlloys.label>decorative alloys</CAL_DecorativeAlloys.label>-->
+  <!--<CAL_DecorativeAlloys.description>Research alloying metals for decorative purposes. \n  -Unlocks Brass, Chrome-plated Steel, Aurichalcum, Sterling Silver, Rose Gold, and Electrum.</CAL_DecorativeAlloys.description>-->
+  <!--<CAL_AdvancedAlloys.label>advanced alloys</CAL_AdvancedAlloys.label>-->
+  <!--<CAL_AdvancedAlloys.description>Research more advanced alloys. \n  -Unlocks Black Steel and Plastin.</CAL_AdvancedAlloys.description>-->
 
 </LanguageData>

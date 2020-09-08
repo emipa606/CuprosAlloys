@@ -1,26 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Decorative Alloys -->
-
-  <CAL_Brass.label>brass</CAL_Brass.label>
-  <CAL_Brass.description>An alloy of copper and aluminum or zinc valued for its resemblance to gold. Can be used for building structures, tools, and weapons.</CAL_Brass.description>
-
-  <CAL_ChromePlatedSteel.label>chrome-plated steel</CAL_ChromePlatedSteel.label>
-  <CAL_ChromePlatedSteel.description>Steel coated with nickel and chromium, valued for its highly polished look. Can be used for building structures, tools, and weapons.</CAL_ChromePlatedSteel.description>
-  <CAL_ChromePlatedSteel.stuffProps.stuffAdjective>chrome-plated</CAL_ChromePlatedSteel.stuffProps.stuffAdjective>
-
-  <CAL_Aurichalcum.label>aurichalcum</CAL_Aurichalcum.label>
-  <CAL_Aurichalcum.description>A valuable alloy of copper and gold with a vibrant reddish color. Can be used for building structures, tools, and weapons.</CAL_Aurichalcum.description>
-
-  <CAL_SterlingSilver.label>sterling silver</CAL_SterlingSilver.label>
-  <CAL_SterlingSilver.description>A valuable alloy of silver and copper, often used for making sculptures. Can also be used for building structures, tools, and weapons.</CAL_SterlingSilver.description>
-
-  <CAL_RoseGold.label>rose gold</CAL_RoseGold.label>
-  <CAL_RoseGold.description>A valuable alloy of gold and copper, often used for making sculptures. Can also be used for building structures, tools, and weapons.</CAL_RoseGold.description>
-
-  <CAL_Electrum.label>electrum</CAL_Electrum.label>
-  <CAL_Electrum.description>A valuable alloy of gold and silver, often used for making sculptures. Can also be used for building structures, tools, and weapons.</CAL_Electrum.description>
-
+  <!--<CAL_Brass.label>brass</CAL_Brass.label>-->
+  <!--<CAL_Brass.description>An alloy of copper and aluminum or zinc valued for its resemblance to gold. Can be used for building structures, tools, and weapons.</CAL_Brass.description>-->
+  <!--<CAL_ChromePlatedSteel.label>chrome-plated steel</CAL_ChromePlatedSteel.label>-->
+  <!--<CAL_ChromePlatedSteel.description>Steel coated with nickel and chromium, valued for its highly polished look. Can be used for building structures, tools, and weapons.</CAL_ChromePlatedSteel.description>-->
+  <!--<CAL_ChromePlatedSteel.stuffProps.stuffAdjective>chrome-plated</CAL_ChromePlatedSteel.stuffProps.stuffAdjective>-->
+  <!--<CAL_Aurichalcum.label>aurichalcum</CAL_Aurichalcum.label>-->
+  <!--<CAL_Aurichalcum.description>A valuable alloy of copper and gold with a vibrant reddish color. Can be used for building structures, tools, and weapons.</CAL_Aurichalcum.description>-->
+  <!--<CAL_SterlingSilver.label>sterling silver</CAL_SterlingSilver.label>-->
+  <!--<CAL_SterlingSilver.description>A valuable alloy of silver and copper, often used for making sculptures. Can also be used for building structures, tools, and weapons.</CAL_SterlingSilver.description>-->
+  <!--<CAL_RoseGold.label>rose gold</CAL_RoseGold.label>-->
+  <!--<CAL_RoseGold.description>A valuable alloy of gold and copper, often used for making sculptures. Can also be used for building structures, tools, and weapons.</CAL_RoseGold.description>-->
+  <!--<CAL_Electrum.label>electrum</CAL_Electrum.label>-->
+  <!--<CAL_Electrum.description>A valuable alloy of gold and silver, often used for making sculptures. Can also be used for building structures, tools, and weapons.</CAL_Electrum.description>-->
 
 </LanguageData>

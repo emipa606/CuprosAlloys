@@ -1,32 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Base Metals -->
-
-  <CAL_Copper.label>copper</CAL_Copper.label>
-  <CAL_Copper.description>An important metal when dealing with temperature and electricity. Can also be used for building structures, tools, and weapons.</CAL_Copper.description>
-
-  <CAL_Lead.label>lead</CAL_Lead.label>
-  <CAL_Lead.description>An extremely dense material with a wide array of industrial uses. Can also be used for building structures, tools, and weapons.</CAL_Lead.description>
-
-  <CAL_Tin.label>tin</CAL_Tin.label>
-  <CAL_Tin.description>A soft and malleable metal most often alloyed with copper to make bronze. Can be used for building structures, tools, and weapons.</CAL_Tin.description>
-
-  <CAL_Aluminum.label>aluminum</CAL_Aluminum.label>
-  <CAL_Aluminum.description>A soft, yet lightweight metal often alloyed to improve its strength. Can be used for building structures, tools, and weapons.</CAL_Aluminum.description>
-
-  <CAL_Nickel.label>nickel</CAL_Nickel.label>
-  <CAL_Nickel.description>A corrosion resistant metal used mainly for making chrome-plated or stainless steel. Can be used for building structures, tools, and weapons.</CAL_Nickel.description>
-
-  <CAL_Zinc.label>zinc</CAL_Zinc.label>
-  <CAL_Zinc.description>A hard and brittle metal often alloyed to improve its durability. Can be used for building structures, tools, and weapons.</CAL_Zinc.description>
-
-  <CAL_Bismuth.label>bismuth</CAL_Bismuth.label>
-  <CAL_Bismuth.description>A metal which oxidizes in a beautiful rainbow pattern. Can be used for building structures, tools, and weapons.</CAL_Bismuth.description>
-
-  <CAL_Chromium.label>chromium</CAL_Chromium.label>
-  <CAL_Chromium.description>A hard and shiny metal used mainly for making chrome-plated or stainless steel. Can be used for building structures, tools, and weapons.</CAL_Chromium.description>
-  <CAL_Chromium.stuffProps.stuffAdjective>chrome</CAL_Chromium.stuffProps.stuffAdjective>
-
+  <!--<CAL_Copper.label>copper</CAL_Copper.label>-->
+  <!--<CAL_Copper.description>An important metal when dealing with temperature and electricity. Can also be used for building structures, tools, and weapons.</CAL_Copper.description>-->
+  <!--<CAL_Lead.label>lead</CAL_Lead.label>-->
+  <!--<CAL_Lead.description>An extremely dense material with a wide array of industrial uses. Can also be used for building structures, tools, and weapons.</CAL_Lead.description>-->
+  <!--<CAL_Tin.label>tin</CAL_Tin.label>-->
+  <!--<CAL_Tin.description>A soft and malleable metal most often alloyed with copper to make bronze. Can be used for building structures, tools, and weapons.</CAL_Tin.description>-->
+  <!--<CAL_Aluminum.label>aluminum</CAL_Aluminum.label>-->
+  <!--<CAL_Aluminum.description>A soft, yet lightweight metal often alloyed to improve its strength. Can be used for building structures, tools, and weapons.</CAL_Aluminum.description>-->
+  <!--<CAL_Nickel.label>nickel</CAL_Nickel.label>-->
+  <!--<CAL_Nickel.description>A corrosion resistant metal used mainly for making chrome-plated or stainless steel. Can be used for building structures, tools, and weapons.</CAL_Nickel.description>-->
+  <!--<CAL_Zinc.label>zinc</CAL_Zinc.label>-->
+  <!--<CAL_Zinc.description>A hard and brittle metal often alloyed to improve its durability. Can be used for building structures, tools, and weapons.</CAL_Zinc.description>-->
+  <!--<CAL_Bismuth.label>bismuth</CAL_Bismuth.label>-->
+  <!--<CAL_Bismuth.description>A metal which oxidizes in a beautiful rainbow pattern. Can be used for building structures, tools, and weapons.</CAL_Bismuth.description>-->
+  <!--<CAL_Chromium.label>chromium</CAL_Chromium.label>-->
+  <!--<CAL_Chromium.description>A hard and shiny metal used mainly for making chrome-plated or stainless steel. Can be used for building structures, tools, and weapons.</CAL_Chromium.description>-->
+  <!--<CAL_Chromium.stuffProps.stuffAdjective>chrome</CAL_Chromium.stuffProps.stuffAdjective>-->
 
 </LanguageData>

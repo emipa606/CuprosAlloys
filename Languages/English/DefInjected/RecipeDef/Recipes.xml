@@ -1,88 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Conversions -->
-
-  <CAL_ConvertBronze.label>Convert bronze to steel</CAL_ConvertBronze.label>
-  <CAL_ConvertBronze.description>Convert bronze ingots into steel for general crafting purposes. Makes 4 steel.</CAL_ConvertBronze.description>
-  <CAL_ConvertBronze.jobString>Converting metals.</CAL_ConvertBronze.jobString>
-
-  <CAL_ConvertAluminum.label>Convert aluminum alloys to steel</CAL_ConvertAluminum.label>
-  <CAL_ConvertAluminum.description>Convert duralumin or zamak ingots into steel for general crafting purposes. Makes 4 steel.</CAL_ConvertAluminum.description>
-  <CAL_ConvertAluminum.jobString>Converting metals.</CAL_ConvertAluminum.jobString>
-
-
+  <!--<CAL_ConvertBronze.label>Convert bronze to steel</CAL_ConvertBronze.label>-->
+  <!--<CAL_ConvertBronze.description>Convert bronze ingots into steel for general crafting purposes. Makes 4 steel.</CAL_ConvertBronze.description>-->
+  <!--<CAL_ConvertBronze.jobString>Converting metals.</CAL_ConvertBronze.jobString>-->
+  <!--<CAL_ConvertAluminum.label>Convert aluminum alloys to steel</CAL_ConvertAluminum.label>-->
+  <!--<CAL_ConvertAluminum.description>Convert duralumin or zamak ingots into steel for general crafting purposes. Makes 4 steel.</CAL_ConvertAluminum.description>-->
+  <!--<CAL_ConvertAluminum.jobString>Converting metals.</CAL_ConvertAluminum.jobString>-->
   <!-- Utility Alloys -->
-
-  <CAL_MakePlumchalcum.label>smelt plumchalcum</CAL_MakePlumchalcum.label>
-  <CAL_MakePlumchalcum.description>Use intense heat to melt and mix metals, creating plumchalcum. Makes 10 ingots.</CAL_MakePlumchalcum.description>
-  <CAL_MakePlumchalcum.jobString>Smelting plumchalcum.</CAL_MakePlumchalcum.jobString>
-
-  <CAL_MakeDuralumin.label>smelt duralumin</CAL_MakeDuralumin.label>
-  <CAL_MakeDuralumin.description>Use intense heat to melt and mix metals, creating duralumin. Makes 10 ingots.</CAL_MakeDuralumin.description>
-  <CAL_MakeDuralumin.jobString>Smelting duralumin.</CAL_MakeDuralumin.jobString>
-
-  <CAL_MakeZamak.label>smelt zamak</CAL_MakeZamak.label>
-  <CAL_MakeZamak.description>Use intense heat to melt and mix metals, creating zamak. Makes 10 ingots.</CAL_MakeZamak.description>
-  <CAL_MakeZamak.jobString>Smelting zamak.</CAL_MakeZamak.jobString>
-
-  <CAL_MakeBismuthBronze.label>smelt bismuth bronze</CAL_MakeBismuthBronze.label>
-  <CAL_MakeBismuthBronze.description>Use intense heat to melt and mix metals, creating bismuth bronze. Makes 10 ingots.</CAL_MakeBismuthBronze.description>
-  <CAL_MakeBismuthBronze.jobString>Smelting bronze.</CAL_MakeBismuthBronze.jobString>
-
-  <CAL_MakeBronze.label>smelt bronze</CAL_MakeBronze.label>
-  <CAL_MakeBronze.description>Use intense heat to melt and mix metals, creating bronze. Makes 10 ingots.</CAL_MakeBronze.description>
-  <CAL_MakeBronze.jobString>Smelting bronze.</CAL_MakeBronze.jobString>
-
-  <CAL_MakeCupronickel.label>smelt cupronickel</CAL_MakeCupronickel.label>
-  <CAL_MakeCupronickel.description>Use intense heat to melt and mix metals, creating cupronickel. Makes 10 ingots.</CAL_MakeCupronickel.description>
-  <CAL_MakeCupronickel.jobString>Smelting cupronickel.</CAL_MakeCupronickel.jobString>
-
-  <CAL_MakeStainlessSteel.label>smelt stainless steel</CAL_MakeStainlessSteel.label>
-  <CAL_MakeStainlessSteel.description>Use intense heat to melt and mix metals, creating stainless steel. Makes 10 ingots.</CAL_MakeStainlessSteel.description>
-  <CAL_MakeStainlessSteel.jobString>Smelting stainless steel.</CAL_MakeStainlessSteel.jobString>
-
-  <CAL_MakeHepatzion.label>smelt hepatzion</CAL_MakeHepatzion.label>
-  <CAL_MakeHepatzion.description>Use intense heat to melt and mix metals, creating hepatzion. Makes 10 ingots.</CAL_MakeHepatzion.description>
-  <CAL_MakeHepatzion.jobString>Smelting hepatzion.</CAL_MakeHepatzion.jobString>
-
-
+  <!--<CAL_MakePlumchalcum.label>smelt plumchalcum</CAL_MakePlumchalcum.label>-->
+  <!--<CAL_MakePlumchalcum.description>Use intense heat to melt and mix metals, creating plumchalcum. Makes 10 ingots.</CAL_MakePlumchalcum.description>-->
+  <!--<CAL_MakePlumchalcum.jobString>Smelting plumchalcum.</CAL_MakePlumchalcum.jobString>-->
+  <!--<CAL_MakeDuralumin.label>smelt duralumin</CAL_MakeDuralumin.label>-->
+  <!--<CAL_MakeDuralumin.description>Use intense heat to melt and mix metals, creating duralumin. Makes 10 ingots.</CAL_MakeDuralumin.description>-->
+  <!--<CAL_MakeDuralumin.jobString>Smelting duralumin.</CAL_MakeDuralumin.jobString>-->
+  <!--<CAL_MakeZamak.label>smelt zamak</CAL_MakeZamak.label>-->
+  <!--<CAL_MakeZamak.description>Use intense heat to melt and mix metals, creating zamak. Makes 10 ingots.</CAL_MakeZamak.description>-->
+  <!--<CAL_MakeZamak.jobString>Smelting zamak.</CAL_MakeZamak.jobString>-->
+  <!--<CAL_MakeBismuthBronze.label>smelt bismuth bronze</CAL_MakeBismuthBronze.label>-->
+  <!--<CAL_MakeBismuthBronze.description>Use intense heat to melt and mix metals, creating bismuth bronze. Makes 10 ingots.</CAL_MakeBismuthBronze.description>-->
+  <!--<CAL_MakeBismuthBronze.jobString>Smelting bronze.</CAL_MakeBismuthBronze.jobString>-->
+  <!--<CAL_MakeBronze.label>smelt bronze</CAL_MakeBronze.label>-->
+  <!--<CAL_MakeBronze.description>Use intense heat to melt and mix metals, creating bronze. Makes 10 ingots.</CAL_MakeBronze.description>-->
+  <!--<CAL_MakeBronze.jobString>Smelting bronze.</CAL_MakeBronze.jobString>-->
+  <!--<CAL_MakeCupronickel.label>smelt cupronickel</CAL_MakeCupronickel.label>-->
+  <!--<CAL_MakeCupronickel.description>Use intense heat to melt and mix metals, creating cupronickel. Makes 10 ingots.</CAL_MakeCupronickel.description>-->
+  <!--<CAL_MakeCupronickel.jobString>Smelting cupronickel.</CAL_MakeCupronickel.jobString>-->
+  <!--<CAL_MakeStainlessSteel.label>smelt stainless steel</CAL_MakeStainlessSteel.label>-->
+  <!--<CAL_MakeStainlessSteel.description>Use intense heat to melt and mix metals, creating stainless steel. Makes 10 ingots.</CAL_MakeStainlessSteel.description>-->
+  <!--<CAL_MakeStainlessSteel.jobString>Smelting stainless steel.</CAL_MakeStainlessSteel.jobString>-->
+  <!--<CAL_MakeHepatzion.label>smelt hepatzion</CAL_MakeHepatzion.label>-->
+  <!--<CAL_MakeHepatzion.description>Use intense heat to melt and mix metals, creating hepatzion. Makes 10 ingots.</CAL_MakeHepatzion.description>-->
+  <!--<CAL_MakeHepatzion.jobString>Smelting hepatzion.</CAL_MakeHepatzion.jobString>-->
   <!-- Decorative Alloys -->
-
-  <CAL_MakeBrass.label>smelt brass</CAL_MakeBrass.label>
-  <CAL_MakeBrass.description>Use intense heat to melt and mix metals, creating brass. Makes 10 ingots.</CAL_MakeBrass.description>
-  <CAL_MakeBrass.jobString>Smelting brass.</CAL_MakeBrass.jobString>
-
-  <CAL_MakeChromePlatedSteel.label>smelt chrome-plated steel</CAL_MakeChromePlatedSteel.label>
-  <CAL_MakeChromePlatedSteel.description>Use intense heat to melt meatls and coat steel, creating chrome-plated steel. Makes 20 ingots.</CAL_MakeChromePlatedSteel.description>
-  <CAL_MakeChromePlatedSteel.jobString>Smelting chrome-plated steel.</CAL_MakeChromePlatedSteel.jobString>
-
-  <CAL_MakeAurichalcum.label>smelt aurichalcum</CAL_MakeAurichalcum.label>
-  <CAL_MakeAurichalcum.description>Use intense heat to melt and mix metals, creating aurichalcum. Makes 10 ingots.</CAL_MakeAurichalcum.description>
-  <CAL_MakeAurichalcum.jobString>Smelting aurichalcum.</CAL_MakeAurichalcum.jobString>
-
-  <CAL_MakeSterlingSilver.label>smelt sterling silver</CAL_MakeSterlingSilver.label>
-  <CAL_MakeSterlingSilver.description>Use intense heat to melt and mix metals, creating sterling silver. Makes 10 ingots.</CAL_MakeSterlingSilver.description>
-  <CAL_MakeSterlingSilver.jobString>Smelting black bronze.</CAL_MakeSterlingSilver.jobString>
-
-  <CAL_MakeRoseGold.label>smelt rose gold</CAL_MakeRoseGold.label>
-  <CAL_MakeRoseGold.description>Use intense heat to melt and mix metals, creating rose gold. Makes 10 ingots.</CAL_MakeRoseGold.description>
-  <CAL_MakeRoseGold.jobString>Smelting rose gold.</CAL_MakeRoseGold.jobString>
-
-  <CAL_MakeElectrum.label>smelt electrum</CAL_MakeElectrum.label>
-  <CAL_MakeElectrum.description>Use intense heat to melt and mix metals, creating electrum. Makes 10 ingots.</CAL_MakeElectrum.description>
-  <CAL_MakeElectrum.jobString>Smelting electrum.</CAL_MakeElectrum.jobString>
-
-
+  <!--<CAL_MakeBrass.label>smelt brass</CAL_MakeBrass.label>-->
+  <!--<CAL_MakeBrass.description>Use intense heat to melt and mix metals, creating brass. Makes 10 ingots.</CAL_MakeBrass.description>-->
+  <!--<CAL_MakeBrass.jobString>Smelting brass.</CAL_MakeBrass.jobString>-->
+  <!--<CAL_MakeChromePlatedSteel.label>smelt chrome-plated steel</CAL_MakeChromePlatedSteel.label>-->
+  <!--<CAL_MakeChromePlatedSteel.description>Use intense heat to melt meatls and coat steel, creating chrome-plated steel. Makes 20 ingots.</CAL_MakeChromePlatedSteel.description>-->
+  <!--<CAL_MakeChromePlatedSteel.jobString>Smelting chrome-plated steel.</CAL_MakeChromePlatedSteel.jobString>-->
+  <!--<CAL_MakeAurichalcum.label>smelt aurichalcum</CAL_MakeAurichalcum.label>-->
+  <!--<CAL_MakeAurichalcum.description>Use intense heat to melt and mix metals, creating aurichalcum. Makes 10 ingots.</CAL_MakeAurichalcum.description>-->
+  <!--<CAL_MakeAurichalcum.jobString>Smelting aurichalcum.</CAL_MakeAurichalcum.jobString>-->
+  <!--<CAL_MakeSterlingSilver.label>smelt sterling silver</CAL_MakeSterlingSilver.label>-->
+  <!--<CAL_MakeSterlingSilver.description>Use intense heat to melt and mix metals, creating sterling silver. Makes 10 ingots.</CAL_MakeSterlingSilver.description>-->
+  <!--<CAL_MakeSterlingSilver.jobString>Smelting black bronze.</CAL_MakeSterlingSilver.jobString>-->
+  <!--<CAL_MakeRoseGold.label>smelt rose gold</CAL_MakeRoseGold.label>-->
+  <!--<CAL_MakeRoseGold.description>Use intense heat to melt and mix metals, creating rose gold. Makes 10 ingots.</CAL_MakeRoseGold.description>-->
+  <!--<CAL_MakeRoseGold.jobString>Smelting rose gold.</CAL_MakeRoseGold.jobString>-->
+  <!--<CAL_MakeElectrum.label>smelt electrum</CAL_MakeElectrum.label>-->
+  <!--<CAL_MakeElectrum.description>Use intense heat to melt and mix metals, creating electrum. Makes 10 ingots.</CAL_MakeElectrum.description>-->
+  <!--<CAL_MakeElectrum.jobString>Smelting electrum.</CAL_MakeElectrum.jobString>-->
   <!-- Advanced Alloys -->
-
-  <CAL_MakeBlackSteel.label>smelt black steel</CAL_MakeBlackSteel.label>
-  <CAL_MakeBlackSteel.description>Use intense heat to melt and mix metals, creating black steel. Makes 10 ingots.</CAL_MakeBlackSteel.description>
-  <CAL_MakeBlackSteel.jobString>Smelting black steel.</CAL_MakeBlackSteel.jobString>
-
-  <CAL_MakePlastin.label>smelt plastin</CAL_MakePlastin.label>
-  <CAL_MakePlastin.description>Use intense heat to melt and mix metals, creating plastin. Makes 10 ingots.</CAL_MakePlastin.description>
-  <CAL_MakePlastin.jobString>Smelting plastin.</CAL_MakePlastin.jobString>
-
+  <!--<CAL_MakeBlackSteel.label>smelt black steel</CAL_MakeBlackSteel.label>-->
+  <!--<CAL_MakeBlackSteel.description>Use intense heat to melt and mix metals, creating black steel. Makes 10 ingots.</CAL_MakeBlackSteel.description>-->
+  <!--<CAL_MakeBlackSteel.jobString>Smelting black steel.</CAL_MakeBlackSteel.jobString>-->
+  <!--<CAL_MakePlastin.label>smelt plastin</CAL_MakePlastin.label>-->
+  <!--<CAL_MakePlastin.description>Use intense heat to melt and mix metals, creating plastin. Makes 10 ingots.</CAL_MakePlastin.description>-->
+  <!--<CAL_MakePlastin.jobString>Smelting plastin.</CAL_MakePlastin.jobString>-->
 
 </LanguageData>

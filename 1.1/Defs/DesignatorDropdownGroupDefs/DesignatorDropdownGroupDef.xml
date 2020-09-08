@@ -12,4 +12,10 @@
   <DesignatorDropdownGroupDef>
     <defName>BasicTilesGroup</defName>
   </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>PowerCablesGroup</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+    <defName>WaterproofPowerCablesGroup</defName>
+  </DesignatorDropdownGroupDef>
 </Defs>

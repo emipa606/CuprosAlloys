@@ -1,25 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Decorative Alloys -->
-
-  <CAL_BrassTile.label>brass tile</CAL_BrassTile.label>
-  <CAL_BrassTile.description>A cheaper alternative to pure gold flooring. Fits perfectly into all kinds of luxurious rooms.</CAL_BrassTile.description>
-
-  <CAL_ChromePlatedSteelTile.label>chrome-plated steel tile</CAL_ChromePlatedSteelTile.label>
-  <CAL_ChromePlatedSteelTile.description>Chrome-plated steel tiles provide a mirrored floor. Expensive, and requires a lot of work to build.</CAL_ChromePlatedSteelTile.description>
-
-  <CAL_AurichalcumTile.label>aurichalcum tile</CAL_AurichalcumTile.label>
-  <CAL_AurichalcumTile.description>A vibrant flooring for a flashy look. Fits into all kinds of luxurious rooms.</CAL_AurichalcumTile.description>
-
-  <CAL_SterlingSilverTile.label>sterling silver tile</CAL_SterlingSilverTile.label>
-  <CAL_SterlingSilverTile.description>A slightly cheaper alternative to pure silver without sacrificing beauty. Fits perfectly into all kinds of luxurious rooms.</CAL_SterlingSilverTile.description>
-
-  <CAL_RoseGoldTile.label>rose gold tile</CAL_RoseGoldTile.label>
-  <CAL_RoseGoldTile.description>A beautiful and impressive kind of floor. Very expensive and requires a lot of work to build.</CAL_RoseGoldTile.description>
-
-  <CAL_ElectrumTile.label>electrum tile</CAL_ElectrumTile.label>
-  <CAL_ElectrumTile.description>An elegant flooring that strikes the perfect balance between gold and silver. Fits perfectly into all kinds of luxurious rooms.</CAL_ElectrumTile.description>
-
+  <!--<CAL_BrassTile.label>brass tile</CAL_BrassTile.label>-->
+  <!--<CAL_BrassTile.description>A cheaper alternative to pure gold flooring. Fits perfectly into all kinds of luxurious rooms.</CAL_BrassTile.description>-->
+  <!--<CAL_ChromePlatedSteelTile.label>chrome-plated steel tile</CAL_ChromePlatedSteelTile.label>-->
+  <!--<CAL_ChromePlatedSteelTile.description>Chrome-plated steel tiles provide a mirrored floor. Expensive, and requires a lot of work to build.</CAL_ChromePlatedSteelTile.description>-->
+  <!--<CAL_AurichalcumTile.label>aurichalcum tile</CAL_AurichalcumTile.label>-->
+  <!--<CAL_AurichalcumTile.description>A vibrant flooring for a flashy look. Fits into all kinds of luxurious rooms.</CAL_AurichalcumTile.description>-->
+  <!--<CAL_SterlingSilverTile.label>sterling silver tile</CAL_SterlingSilverTile.label>-->
+  <!--<CAL_SterlingSilverTile.description>A slightly cheaper alternative to pure silver without sacrificing beauty. Fits perfectly into all kinds of luxurious rooms.</CAL_SterlingSilverTile.description>-->
+  <!--<CAL_RoseGoldTile.label>rose gold tile</CAL_RoseGoldTile.label>-->
+  <!--<CAL_RoseGoldTile.description>A beautiful and impressive kind of floor. Very expensive and requires a lot of work to build.</CAL_RoseGoldTile.description>-->
+  <!--<CAL_ElectrumTile.label>electrum tile</CAL_ElectrumTile.label>-->
+  <!--<CAL_ElectrumTile.description>An elegant flooring that strikes the perfect balance between gold and silver. Fits perfectly into all kinds of luxurious rooms.</CAL_ElectrumTile.description>-->
 
 </LanguageData>
