@@ -11,35 +11,47 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>Update of The White Crayons mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of The White Crayons mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543189281
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
 
-Support-chat:
-https://discord.gg/SuhwVpM
+- Sorted the floors into four groups since that was requested in the original mod.
+[list]
+[*] Basic
+[*] Advanced
+[*] Utility
+[*] Decorative
+[/list]
 
-Non-steam version:
-https://github.com/emipa606/CuprosAlloys
+- Added the possibility of buildning conduits and components of copper and aluminium and not just steel.
+- Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1554804570]Metals+[/url]
+- Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2131576786]Fueled Smelter + Crematorium(continued)[/url]
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/CuprosAlloys][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
-Sorted the floors into four groups since that was requested in the original mod.
-- Basic
-- Advanced
-- Utility
-- Decorative
+[img]https://i.imgur.com/NOW7jU1.png[/img]
 
---- Original Description ---
 Adds new mid-game/end-game alloyed metals for creating buildings, weapons, and art.
 
-Thanks to cuproPanda
-Please note that the original source and mod was created by cuproPanda.
+The B19 version can be found [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1474904096]here.[/url]
+
+[h1]Thanks to cuproPanda[/h1]
+Please note that the original source and mod was created by [b]cuproPanda.[/b] 
 His work on this mod finished with B18, so I've forked his code to update this mod at community request.
 
-Workshop ID:
+[h1]Workshop ID:[/h1]
 1543189281
 
-Items Added:
-Base Metals:
+[h1]Items Added:[/h1]
+[b]Base Metals:[/b]
 Copper
 Lead
 Tin
@@ -50,7 +62,7 @@ Bismuth
 Chromium
 
 Recipes make 10 ingots.
-Utility Alloys:
+[b]Utility Alloys:[/b]
 Plumchalcum: 8 lead, 2 copper
 Duralumin: 9 aluminum, 1 copper
 Zamak: 8 aluminum, 2 zinc
@@ -60,7 +72,7 @@ Cupronickel: 8 copper, 2 nickel
 Stainless Steel: 8 steel, 1 nickel, 1 chromium
 Hepatzion: 6 copper, 10 silver, 10 gold
 
-Decorative Alloys:
+[b]Decorative Alloys:[/b]
 Brass: 9 copper, 1 aluminum/zinc
 Chrome-Plated Steel: 18 steel, 1 nickel, 1 chromium (makes 20)
 Aurichalcum: 8 copper, 10 gold
@@ -68,19 +80,22 @@ Sterling Silver: 35 silver, 3 copper
 Rose Gold: 35 gold, 3 copper
 Electrum: 25 gold, 25 silver
 
-Advanced Alloys:
+[b]Advanced Alloys:[/b]
 Black Steel: 6 stainless steel, 4 hepatzion
 Plastin: 4 tin, 4 plasteel, 2 bismuth bronze
 
-Save Compatability
+[h1]Save Compatability[/h1]
 This mod will work with existing saves, but all of the resources will have to be purchased from traders or mined using my Quarry mod.
 Always back up your saves before adding new mods as there is always the possibility for issues.
 
-Mod Compatability - Not tested for 1.0 but no logic has changed
-Architect Sense: All floors are grouped together
-Combat Extended: Metals are regrouped to be usable for weapon crafting
-Industrialisation: Copper and Aluminium are usable in recipes
-Survivalist's Additions: Forge/Crucible can be used to make alloys
+[h1]Mod Compatability - Not tested for 1.0 but no logic has changed[/h1]
+[b]Architect Sense:[/b] All floors are grouped together
+[b]Combat Extended:[/b] Metals are regrouped to be usable for weapon crafting
+[b]Industrialisation:[/b] Copper and Aluminium are usable in recipes
+[b]Survivalist's Additions:[/b] Forge/Crucible can be used to make alloys
 No known issues yet, please report any issues
-</description>
+
+[h1]Older Versions and Update Notes[/h1]
+All versions of this mod can be found on cuproPanda's [url=https://github.com/cuproPanda/Cupros-Alloys/releases]GitHub[/url]. Each release has info on what has changed from the previous release.
+Source for this mod can be found on my [url=https://github.com/Benjamin-S/Cupros-Alloys]GitHub[/url]</description>
 </ModMetaData>
