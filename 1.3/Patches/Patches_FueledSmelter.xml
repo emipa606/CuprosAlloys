@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- If FueledSmelter is installed, add it to smelting recipes -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="FueledSmelter"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[@Name="CAL_RecipeAlloyBase"]/recipeUsers</xpath>
+      <value>
+        <li>FueledSmelter</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>

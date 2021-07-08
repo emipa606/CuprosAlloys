@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Cupro's Alloys (Continued)</name>
   <packageId>Mlie.CuprosAlloys</packageId>
@@ -8,6 +8,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
@@ -45,7 +46,7 @@ The B19 version can be found [url=https://steamcommunity.com/sharedfiles/filedet
 
 [h1]Thanks to cuproPanda[/h1]
 Please note that the original source and mod was created by [b]cuproPanda.[/b] 
-His work on this mod finished with B18, so I've forked his code to update this mod at community request.
+His work on this mod finished with B18, so I&apos;ve forked his code to update this mod at community request.
 
 [h1]Workshop ID:[/h1]
 1543189281
@@ -92,7 +93,7 @@ Always back up your saves before adding new mods as there is always the possibil
 [b]Architect Sense:[/b] All floors are grouped together
 [b]Combat Extended:[/b] Metals are regrouped to be usable for weapon crafting
 [b]Industrialisation:[/b] Copper and Aluminium are usable in recipes
-[b]Survivalist's Additions:[/b] Forge/Crucible can be used to make alloys
+[b]Survivalist&apos;s Additions:[/b] Forge/Crucible can be used to make alloys
 No known issues yet, please report any issues
 
 
@@ -106,6 +107,6 @@ No known issues yet, please report any issues
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
+
 </description>
 </ModMetaData>
-
