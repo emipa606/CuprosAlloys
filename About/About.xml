@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Cupro's Alloys (Continued)</name>
   <packageId>Mlie.CuprosAlloys</packageId>
@@ -12,7 +12,7 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of The White Crayons mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543189281
 
@@ -29,16 +29,20 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1543189281
 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2131576786]Fueled Smelter + Crematorium(continued)[/url]
 
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/CuprosAlloys][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/kbYsPSO.png[/img][/td]
+        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 Adds new mid-game/end-game alloyed metals for creating buildings, weapons, and art.
 
@@ -46,7 +50,7 @@ The B19 version can be found [url=https://steamcommunity.com/sharedfiles/filedet
 
 [h1]Thanks to cuproPanda[/h1]
 Please note that the original source and mod was created by [b]cuproPanda.[/b] 
-His work on this mod finished with B18, so I&apos;ve forked his code to update this mod at community request.
+His work on this mod finished with B18, so I've forked his code to update this mod at community request.
 
 [h1]Workshop ID:[/h1]
 1543189281
@@ -93,12 +97,12 @@ Always back up your saves before adding new mods as there is always the possibil
 [b]Architect Sense:[/b] All floors are grouped together
 [b]Combat Extended:[/b] Metals are regrouped to be usable for weapon crafting
 [b]Industrialisation:[/b] Copper and Aluminium are usable in recipes
-[b]Survivalist&apos;s Additions:[/b] Forge/Crucible can be used to make alloys
+[b]Survivalist's Additions:[/b] Forge/Crucible can be used to make alloys
 No known issues yet, please report any issues
 
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -107,6 +111,5 @@ No known issues yet, please report any issues
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
