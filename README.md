@@ -1,6 +1,6 @@
 # CuprosAlloys
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of The White Crayons mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543189281
@@ -20,19 +20,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1543189281
 - Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2131576786]Fueled Smelter + Crematorium(continued)
 
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/CuprosAlloys]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Adds new mid-game/end-game alloyed metals for creating buildings, weapons, and art.
@@ -42,7 +33,7 @@ The B19 version can be found https://steamcommunity.com/sharedfiles/filedetails/
 # Thanks to cuproPanda
 
 Please note that the original source and mod was created by **cuproPanda.** 
-His work on this mod finished with B18, so I&apos;ve forked his code to update this mod at community request.
+His work on this mod finished with B18, so I've forked his code to update this mod at community request.
 
 # Workshop ID:
 
@@ -93,12 +84,12 @@ Always back up your saves before adding new mods as there is always the possibil
 **Architect Sense:** All floors are grouped together
 **Combat Extended:** Metals are regrouped to be usable for weapon crafting
 **Industrialisation:** Copper and Aluminium are usable in recipes
-**Survivalist&apos;s Additions:** Forge/Crucible can be used to make alloys
+**Survivalist's Additions:** Forge/Crucible can be used to make alloys
 No known issues yet, please report any issues
 
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

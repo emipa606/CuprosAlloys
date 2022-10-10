@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Architect Sense</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationInsert">
+          <xpath>/Defs/TerrainDef[@Name="CAL_AlloyFloorBase"]</xpath>
+          <order>Prepend</order>
+          <value>
+            <ArchitectSense.DesignationSubCategoryDef>
+              <defName>SubCategory_CuprosAlloysFloors</defName>
+              <label>Metal Floor</label>
+              <description>Various metal floors from Cupro's Alloys.</description>
+              <defNames>
+                <li>CAL_CopperTile</li>
+                <li>CAL_LeadTile</li>
+                <li>CAL_TinTile</li>
+                <li>CAL_AluminumTile</li>
+                <li>CAL_NickelTile</li>
+                <li>CAL_ZincTile</li>
+                <li>CAL_BismuthTile</li>
+                <li>CAL_ChromiumTile</li>
+                <li>CAL_PlumchalcumTile</li>
+                <li>CAL_DuraluminTile</li>
+                <li>CAL_ZamakTile</li>
+                <li>CAL_BismuthBronzeTile</li>
+                <li>CAL_BronzeTile</li>
+                <li>CAL_CupronickelTile</li>
+                <li>CAL_StainlessSteelTile</li>
+                <li>CAL_HepatzionTile</li>
+                <li>CAL_BrassTile</li>
+                <li>CAL_ChromePlatedSteelTile</li>
+                <li>CAL_AurichalcumTile</li>
+                <li>CAL_SterlingSilverTile</li>
+                <li>CAL_RoseGoldTile</li>
+                <li>CAL_ElectrumTile</li>
+                <li>CAL_BlackSteelTile</li>
+                <li>CAL_PlastinTile</li>
+              </defNames>
+              <designationCategory>Floors</designationCategory>
+              <preview>false</preview>
+            </ArchitectSense.DesignationSubCategoryDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

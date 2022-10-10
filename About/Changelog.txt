@@ -1,5 +1,8 @@
 # Changelog for CuprosAlloys
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.0.13.0 - Mod updated for 1.3 and passed autotests
 
 
