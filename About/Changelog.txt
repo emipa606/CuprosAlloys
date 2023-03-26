@@ -1,5 +1,8 @@
 # Changelog for CuprosAlloys
 
+1.4.2 - All minerals can now be found using the long-range mineral scanner
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

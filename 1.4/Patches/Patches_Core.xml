@@ -127,4 +127,17 @@
       </fixedIngredientFilter>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/GenStepDef[defName="PreciousLump"]/genStep/mineables</xpath>
+    <value>
+      <li>CAL_MineableBauxite</li>
+      <li>CAL_MineableCassiterite</li>
+      <li>CAL_MineableSphalerite</li>
+      <li>CAL_MineableGarnierite</li>
+      <li>CAL_MineableBismuthinite</li>
+      <li>CAL_MineableMalachite</li>
+      <li>CAL_MineableGalena</li>
+      <li>CAL_MineableChromite</li>
+    </value>
+  </Operation>
 </Patch>
