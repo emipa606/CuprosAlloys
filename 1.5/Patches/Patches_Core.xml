@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Silver"]/thingCategories</xpath>
+    <value>
+      <li>CAL_Metals</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Gold"]/thingCategories</xpath>
+    <value>
+      <li>CAL_Metals</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Steel"]/thingCategories</xpath>
+    <value>
+      <li>CAL_Conducting</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plasteel"]/thingCategories</xpath>
+    <value>
+      <li>CAL_Metals</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Uranium"]/thingCategories</xpath>
+    <value>
+      <li>CAL_Metals</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Steel"]/stuffProps/categories</xpath>
+    <value>
+      <li>Conducting</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="PowerConduit"]</xpath>
+    <value>
+      <designatorDropdown>PowerCablesGroup</designatorDropdown>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="WaterproofConduit"]</xpath>
+    <value>
+      <designatorDropdown Inherit="False">WaterproofPowerCablesGroup</designatorDropdown>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ComponentIndustrial"]/ingredients</xpath>
+    <value>
+      <ingredients>
+        <li>
+          <filter>
+            <categories>
+              <li>CAL_Conducting</li>
+            </categories>
+          </filter>
+          <count>12</count>
+        </li>
+      </ingredients>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ComponentIndustrial"]/fixedIngredientFilter</xpath>
+    <value>
+      <fixedIngredientFilter>
+        <categories>
+          <li>CAL_Conducting</li>
+        </categories>
+      </fixedIngredientFilter>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ComponentSpacer"]/ingredients</xpath>
+    <value>
+      <ingredients>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>ComponentIndustrial</li>
+            </thingDefs>
+          </filter>
+          <count>1</count>
+        </li>
+        <li>
+          <filter>
+            <categories>
+              <li>CAL_Conducting</li>
+            </categories>
+          </filter>
+          <count>20</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Plasteel</li>
+            </thingDefs>
+          </filter>
+          <count>10</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Gold</li>
+            </thingDefs>
+          </filter>
+          <count>0.3</count>
+        </li>
+      </ingredients>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_ComponentSpacer"]/fixedIngredientFilter</xpath>
+    <value>
+      <fixedIngredientFilter>
+        <categories>
+          <li>CAL_Conducting</li>
+        </categories>
+        <thingDefs>
+          <li>ComponentIndustrial</li>
+          <li>Plasteel</li>
+          <li>Gold</li>
+        </thingDefs>
+      </fixedIngredientFilter>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/GenStepDef[defName="PreciousLump"]/genStep/mineables</xpath>
+    <value>
+      <li>CAL_MineableBauxite</li>
+      <li>CAL_MineableCassiterite</li>
+      <li>CAL_MineableSphalerite</li>
+      <li>CAL_MineableGarnierite</li>
+      <li>CAL_MineableBismuthinite</li>
+      <li>CAL_MineableMalachite</li>
+      <li>CAL_MineableGalena</li>
+      <li>CAL_MineableChromite</li>
+    </value>
+  </Operation>
+</Patch>

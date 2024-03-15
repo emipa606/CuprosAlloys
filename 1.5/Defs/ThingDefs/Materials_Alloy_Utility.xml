@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--============================== Utility Alloys ==============================-->
+  <ThingDef ParentName="CAL_DullIngotBase">
+    <defName>CAL_Plumchalcum</defName>
+    <label>plumchalcum</label>
+    <description>An alloy of lead and copper used in ancient times for plateware and utensils. Can be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(97,92,86)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(97,92,86)</color>
+      <statFactors>
+        <MaxHitPoints>0.85</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Cleanliness>0.95</Cleanliness>
+        <Flammability>0.2</Flammability>
+        <MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
+        <WorkToMake>0.8</WorkToMake>
+        <WorkToBuild>0.8</WorkToBuild>
+        <!-- <ArmorRating_Blunt>1.1</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.9</ArmorRating_Sharp> -->
+        <!-- Deprecated Armor Type <ArmorRating_Electric>0.9</ArmorRating_Electric> -->
+        <!-- Lead is poisonous, so it affects immune speed when made into a bed -->
+        <ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_DullIngotBase">
+    <defName>CAL_Duralumin</defName>
+    <label>duralumin</label>
+    <description>A light and strong alloy of aluminum and copper. Can be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(220,214,208)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.2</Mass>
+      <SharpDamageMultiplier>1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <statOffsets>
+        <Beauty>2</Beauty>
+      </statOffsets>
+      <color>(220,214,208)</color>
+      <statFactors>
+        <MaxHitPoints>0.95</MaxHitPoints>
+        <Cleanliness>1.15</Cleanliness>
+        <Flammability>0.2</Flammability>
+        <DoorOpenSpeed>1.1</DoorOpenSpeed>
+        <MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+        <WorkToMake>0.8</WorkToMake>
+        <WorkToBuild>0.8</WorkToBuild>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_DullIngotBase">
+    <defName>CAL_Zamak</defName>
+    <label>zamak</label>
+    <description>A soft, yet strong alloy of aluminum and zinc which is easily built with. Can be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(179, 183, 187)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+      <Mass>0.3</Mass>
+      <SharpDamageMultiplier>1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.85</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(179, 183, 187)</color>
+      <statFactors>
+        <MaxHitPoints>0.9</MaxHitPoints>
+        <Flammability>0.2</Flammability>
+        <MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+        <WorkToMake>0.75</WorkToMake>
+        <WorkToBuild>0.75</WorkToBuild>
+        <!-- <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.95</ArmorRating_Blunt> -->
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_DullIngotBase">
+    <defName>CAL_BismuthBronze</defName>
+    <label>bismuth bronze</label>
+    <description>A strong alloy of copper, zinc, and bismuth used in ancient times before the discovery of steel. Can be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(121,128,101)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <Mass>0.4</Mass>
+      <SharpDamageMultiplier>1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(121,128,101)</color>
+      <statFactors>
+        <MaxHitPoints>0.95</MaxHitPoints>
+        <Flammability>0.2</Flammability>
+        <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_DullIngotBase">
+    <defName>CAL_Bronze</defName>
+    <label>bronze</label>
+    <description>A strong alloy of copper and tin or zinc used in ancient times before the discovery of steel. Can be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(87,69,34)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <Mass>0.4</Mass>
+      <SharpDamageMultiplier>1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(87,69,34)</color>
+      <statFactors>
+        <MaxHitPoints>0.95</MaxHitPoints>
+        <Flammability>0.2</Flammability>
+        <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_DullIngotBase">
+    <defName>CAL_Cupronickel</defName>
+    <label>cupronickel</label>
+    <description>A resilient alloy of copper and nickel. Can be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(190,180,175)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <Mass>0.4</Mass>
+      <SharpDamageMultiplier>0.9</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(195,172,164)</color>
+      <statFactors>
+        <MaxHitPoints>0.9</MaxHitPoints>
+        <Flammability>0.2</Flammability>
+        <Cleanliness>1.05</Cleanliness>
+        <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+        <WorkToMake>0.85</WorkToMake>
+        <WorkToBuild>0.85</WorkToBuild>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_DullIngotBase">
+    <defName>CAL_StainlessSteel</defName>
+    <label>stainless steel</label>
+    <description>An alloy of steel, chromium, and nickel well known for it's ability to be sterilized. Can be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(200, 200, 200)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.5</Mass>
+      <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(200,200,200)</color>
+      <statFactors>
+        <Cleanliness>1.3</Cleanliness>
+        <ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+        <Flammability>0.2</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_DullIngotBase">
+    <defName>CAL_Hepatzion</defName>
+    <label>hepatzion</label>
+    <description>A valuable metal alloy with a decent strength, often used for making sculptures. Can also be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(65,51,70)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>12.5</MarketValue>
+      <Mass>0.3</Mass>
+      <SharpDamageMultiplier>1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(65,51,70)</color>
+      <statFactors>
+        <MaxHitPoints>0.9</MaxHitPoints>
+        <Beauty>1.2</Beauty>
+        <Flammability>0.2</Flammability>
+        <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>

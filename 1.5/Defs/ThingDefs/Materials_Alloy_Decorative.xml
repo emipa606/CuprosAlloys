@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--============================== Decorative Alloys ==============================-->
+  <ThingDef ParentName="CAL_ShinyIngotBase">
+    <defName>CAL_Brass</defName>
+    <label>brass</label>
+    <description>An alloy of copper and aluminum or zinc valued for its resemblance to gold. Can be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(244, 205, 125)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>0.4</Mass>
+      <SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <statOffsets>
+        <Beauty>6</Beauty>
+      </statOffsets>
+      <color>(244, 205, 125)</color>
+      <statFactors>
+        <MaxHitPoints>0.9</MaxHitPoints>
+        <Beauty>2</Beauty>
+        <Cleanliness>1.2</Cleanliness>
+        <Flammability>0.2</Flammability>
+        <WorkToMake>0.9</WorkToMake>
+        <WorkToBuild>0.9</WorkToBuild>
+        <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+        <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_ShinyIngotBase">
+    <defName>CAL_ChromePlatedSteel</defName>
+    <label>chrome-plated steel</label>
+    <description>Steel coated with nickel and chromium, valued for its highly polished look. Can be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(245, 250, 255)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.75</MarketValue>
+      <Mass>0.5</Mass>
+      <SharpDamageMultiplier>1.05</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.05</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <stuffAdjective>chrome-plated</stuffAdjective>
+      <statOffsets>
+        <Beauty>12</Beauty>
+      </statOffsets>
+      <color>(205, 210, 215)</color>
+      <statFactors>
+        <Beauty>2</Beauty>
+        <Cleanliness>1.02</Cleanliness>
+        <Flammability>0.2</Flammability>
+        <WorkToMake>0.9</WorkToMake>
+        <WorkToBuild>0.9</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_ShinyIngotBase">
+    <defName>CAL_Aurichalcum</defName>
+    <label>aurichalcum</label>
+    <description>A valuable alloy of copper and gold with a vibrant reddish color. Can be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(229,74,36)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <Mass>0.4</Mass>
+      <SharpDamageMultiplier>0.65</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.75</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <statOffsets>
+        <Beauty>6</Beauty>
+      </statOffsets>
+      <color>(229,74,36)</color>
+      <statFactors>
+        <MaxHitPoints>0.78</MaxHitPoints>
+        <Beauty>1.5</Beauty>
+        <Cleanliness>1.1</Cleanliness>
+        <Flammability>0.2</Flammability>
+        <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_ShinyIngotBase">
+    <defName>CAL_SterlingSilver</defName>
+    <label>sterling silver</label>
+    <description>A valuable alloy of silver and copper, often used for making sculptures. Can also be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(228,214,197)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>6.25</MarketValue>
+      <Mass>0.8</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(228,214,197)</color>
+      <statOffsets>
+        <Beauty>6</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints>
+        <Flammability>0.2</Flammability>
+        <Beauty>1.5</Beauty>
+        <WorkToMake>1.2</WorkToMake>
+        <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_ShinyIngotBase">
+    <defName>CAL_RoseGold</defName>
+    <label>rose gold</label>
+    <description>A valuable alloy of gold and copper, often used for making sculptures. Can also be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(250,180,140)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>45.6</MarketValue>
+      <Mass>1.1</Mass>
+      <SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(250,180,140)</color>
+      <statOffsets>
+        <Beauty>14</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.65</MaxHitPoints>
+        <Beauty>4</Beauty>
+        <Flammability>0.2</Flammability>
+        <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="CAL_ShinyIngotBase">
+    <defName>CAL_Electrum</defName>
+    <label>electrum</label>
+    <description>A valuable alloy of gold and silver, often used for making sculptures. Can also be used for building structures, tools, and weapons.</description>
+    <graphicData>
+      <color>(249,239,170)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>49.4</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.4</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.13</BluntDamageMultiplier>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(249,239,170)</color>
+      <statOffsets>
+        <Beauty>9</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.65</MaxHitPoints>
+        <Beauty>3.5</Beauty>
+        <Flammability>0.2</Flammability>
+        <MeleeWeapon_CooldownMultiplier>1.05</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>

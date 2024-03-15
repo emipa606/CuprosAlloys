@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PowerConduit">
+    <defName>CopperConduit</defName>
+    <label>copper power conduit</label>
+    <costList Inherit="False">
+      <CAL_Copper>1</CAL_Copper>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="PowerConduit">
+    <defName>AluminumConduit</defName>
+    <label>aluminum power conduit</label>
+    <costList Inherit="False">
+      <CAL_Aluminum>1</CAL_Aluminum>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="PowerConduit">
+    <defName>WaterproofCopperConduit</defName>
+    <label>waterproof copper power conduit</label>
+    <costList Inherit="False">
+      <CAL_Copper>10</CAL_Copper>
+    </costList>
+    <designatorDropdown Inherit="False">WaterproofPowerCablesGroup</designatorDropdown>
+  </ThingDef>
+  <ThingDef ParentName="PowerConduit">
+    <defName>WaterproofAluminumConduit</defName>
+    <label>waterproof aluminum power conduit</label>
+    <costList Inherit="False">
+      <CAL_Aluminum>10</CAL_Aluminum>
+    </costList>
+    <designatorDropdown Inherit="False">WaterproofPowerCablesGroup</designatorDropdown>
+  </ThingDef>
+</Defs>
