@@ -1,5 +1,8 @@
 # Changelog for CuprosAlloys
 
+1.5.1 - All ores should now be vein-minable
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

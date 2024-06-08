@@ -20,10 +20,8 @@
       <mineableThing>CAL_Aluminum</mineableThing>
       <mineableYield>35</mineableYield>
       <mineableScatterCommonality>0.65</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>
-        <min>6</min>
-        <max>18</max>
-      </mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>6~18</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
   <ThingDef ParentName="RockBase">
@@ -46,10 +44,8 @@
       <mineableThing>CAL_Tin</mineableThing>
       <mineableYield>35</mineableYield>
       <mineableScatterCommonality>0.5</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>
-        <min>6</min>
-        <max>18</max>
-      </mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>6~18</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
   <ThingDef ParentName="RockBase">
@@ -71,10 +67,8 @@
       <mineableThing>CAL_Zinc</mineableThing>
       <mineableYield>35</mineableYield>
       <mineableScatterCommonality>0.5</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>
-        <min>6</min>
-        <max>18</max>
-      </mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>6~18</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
   <ThingDef ParentName="RockBase">
@@ -96,10 +90,8 @@
       <mineableThing>CAL_Nickel</mineableThing>
       <mineableYield>35</mineableYield>
       <mineableScatterCommonality>0.5</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>
-        <min>6</min>
-        <max>18</max>
-      </mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>6~18</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
   <ThingDef ParentName="RockBase">
@@ -121,10 +113,8 @@
       <mineableThing>CAL_Bismuth</mineableThing>
       <mineableYield>35</mineableYield>
       <mineableScatterCommonality>0.5</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>
-        <min>6</min>
-        <max>18</max>
-      </mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>6~18</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
   <ThingDef ParentName="RockBase">
@@ -147,10 +137,8 @@
       <mineableThing>CAL_Copper</mineableThing>
       <mineableYield>35</mineableYield>
       <mineableScatterCommonality>0.65</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>
-        <min>8</min>
-        <max>25</max>
-      </mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>8~25</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
   <ThingDef ParentName="RockBase">
@@ -177,10 +165,8 @@
       <mineableThing>CAL_Lead</mineableThing>
       <mineableYield>30</mineableYield>
       <mineableScatterCommonality>0.65</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>
-        <min>6</min>
-        <max>17</max>
-      </mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>6~17</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
   <ThingDef ParentName="RockBase">
@@ -202,10 +188,8 @@
       <mineableThing>CAL_Chromium</mineableThing>
       <mineableYield>35</mineableYield>
       <mineableScatterCommonality>0.05</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>
-        <min>2</min>
-        <max>8</max>
-      </mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>2~8</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
 </Defs>
