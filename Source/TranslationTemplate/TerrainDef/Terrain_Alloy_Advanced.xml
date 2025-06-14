@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: black steel tile -->
+  <CAL_BlackSteelTile.label>black steel tile</CAL_BlackSteelTile.label>
+  <!-- EN: Strong metal tiles, for a dark and clean look. Pretty, but labor-intensive. -->
+  <CAL_BlackSteelTile.description>Strong metal tiles, for a dark and clean look. Pretty, but labor-intensive.</CAL_BlackSteelTile.description>
+  <!-- EN: sanitary copper tile -->
+  <CAL_CopperTile.label>sanitary copper tile</CAL_CopperTile.label>
+  <!-- EN: Naturally antimicrobial copper tiles useful in hospitals to help prevent patients from getting various infections. -->
+  <CAL_CopperTile.description>Naturally antimicrobial copper tiles useful in hospitals to help prevent patients from getting various infections.</CAL_CopperTile.description>
+  <!-- EN: lead tile -->
+  <CAL_LeadTile.label>lead tile</CAL_LeadTile.label>
+  <!-- EN: Lead tiles, for a dark look. Not healthy to be around, but quick to build. -->
+  <CAL_LeadTile.description>Lead tiles, for a dark look. Not healthy to be around, but quick to build.</CAL_LeadTile.description>
+  <!-- EN: plastin tile -->
+  <CAL_PlastinTile.label>plastin tile</CAL_PlastinTile.label>
+  <!-- EN: Metal tiles, for that spaceship look. Very expensive and requires a lot of work to build. -->
+  <CAL_PlastinTile.description>Metal tiles, for that spaceship look. Very expensive and requires a lot of work to build.</CAL_PlastinTile.description>
+</LanguageData>

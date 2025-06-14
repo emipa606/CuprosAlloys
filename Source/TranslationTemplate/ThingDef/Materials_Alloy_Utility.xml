@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bismuth bronze -->
+  <CAL_BismuthBronze.label>bismuth bronze</CAL_BismuthBronze.label>
+  <!-- EN: A strong alloy of copper, zinc, and bismuth used in ancient times before the discovery of steel. Can be used for building structures, tools, and weapons. -->
+  <CAL_BismuthBronze.description>A strong alloy of copper, zinc, and bismuth used in ancient times before the discovery of steel. Can be used for building structures, tools, and weapons.</CAL_BismuthBronze.description>
+  <!-- EN: bronze -->
+  <CAL_Bronze.label>bronze</CAL_Bronze.label>
+  <!-- EN: A strong alloy of copper and tin or zinc used in ancient times before the discovery of steel. Can be used for building structures, tools, and weapons. -->
+  <CAL_Bronze.description>A strong alloy of copper and tin or zinc used in ancient times before the discovery of steel. Can be used for building structures, tools, and weapons.</CAL_Bronze.description>
+  <!-- EN: cupronickel -->
+  <CAL_Cupronickel.label>cupronickel</CAL_Cupronickel.label>
+  <!-- EN: A resilient alloy of copper and nickel. Can be used for building structures, tools, and weapons. -->
+  <CAL_Cupronickel.description>A resilient alloy of copper and nickel. Can be used for building structures, tools, and weapons.</CAL_Cupronickel.description>
+  <!-- EN: duralumin -->
+  <CAL_Duralumin.label>duralumin</CAL_Duralumin.label>
+  <!-- EN: A light and strong alloy of aluminum and copper. Can be used for building structures, tools, and weapons. -->
+  <CAL_Duralumin.description>A light and strong alloy of aluminum and copper. Can be used for building structures, tools, and weapons.</CAL_Duralumin.description>
+  <!-- EN: hepatzion -->
+  <CAL_Hepatzion.label>hepatzion</CAL_Hepatzion.label>
+  <!-- EN: A valuable metal alloy with a decent strength, often used for making sculptures. Can also be used for building structures, tools, and weapons. -->
+  <CAL_Hepatzion.description>A valuable metal alloy with a decent strength, often used for making sculptures. Can also be used for building structures, tools, and weapons.</CAL_Hepatzion.description>
+  <!-- EN: plumchalcum -->
+  <CAL_Plumchalcum.label>plumchalcum</CAL_Plumchalcum.label>
+  <!-- EN: An alloy of lead and copper used in ancient times for plateware and utensils. Can be used for building structures, tools, and weapons. -->
+  <CAL_Plumchalcum.description>An alloy of lead and copper used in ancient times for plateware and utensils. Can be used for building structures, tools, and weapons.</CAL_Plumchalcum.description>
+  <!-- EN: stainless steel -->
+  <CAL_StainlessSteel.label>stainless steel</CAL_StainlessSteel.label>
+  <!-- EN: An alloy of steel, chromium, and nickel well known for it's ability to be sterilized. Can be used for building structures, tools, and weapons. -->
+  <CAL_StainlessSteel.description>An alloy of steel, chromium, and nickel well known for it's ability to be sterilized. Can be used for building structures, tools, and weapons.</CAL_StainlessSteel.description>
+  <!-- EN: zamak -->
+  <CAL_Zamak.label>zamak</CAL_Zamak.label>
+  <!-- EN: A soft, yet strong alloy of aluminum and zinc which is easily built with. Can be used for building structures, tools, and weapons. -->
+  <CAL_Zamak.description>A soft, yet strong alloy of aluminum and zinc which is easily built with. Can be used for building structures, tools, and weapons.</CAL_Zamak.description>
+</LanguageData>

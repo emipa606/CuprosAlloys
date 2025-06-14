@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: aluminum power conduit -->
+  <AluminumConduit.label>aluminum power conduit</AluminumConduit.label>
+  <!-- EN: A bundle of electrical cables for moving power around. Can be placed under walls and other buildings. -->
+  <AluminumConduit.description>A bundle of electrical cables for moving power around. Can be placed under walls and other buildings.</AluminumConduit.description>
+  <!-- EN: copper power conduit -->
+  <CopperConduit.label>copper power conduit</CopperConduit.label>
+  <!-- EN: A bundle of electrical cables for moving power around. Can be placed under walls and other buildings. -->
+  <CopperConduit.description>A bundle of electrical cables for moving power around. Can be placed under walls and other buildings.</CopperConduit.description>
+  <!-- EN: waterproof aluminum power conduit -->
+  <WaterproofAluminumConduit.label>waterproof aluminum power conduit</WaterproofAluminumConduit.label>
+  <!-- EN: A bundle of electrical cables for moving power around. Can be placed under walls and other buildings. -->
+  <WaterproofAluminumConduit.description>A bundle of electrical cables for moving power around. Can be placed under walls and other buildings.</WaterproofAluminumConduit.description>
+  <!-- EN: waterproof copper power conduit -->
+  <WaterproofCopperConduit.label>waterproof copper power conduit</WaterproofCopperConduit.label>
+  <!-- EN: A bundle of electrical cables for moving power around. Can be placed under walls and other buildings. -->
+  <WaterproofCopperConduit.description>A bundle of electrical cables for moving power around. Can be placed under walls and other buildings.</WaterproofCopperConduit.description>
+</LanguageData>

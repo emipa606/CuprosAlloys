@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: black steel -->
+  <CAL_BlackSteel.label>black steel</CAL_BlackSteel.label>
+  <!-- EN: Steel alloyed with hepatzion to slightly increase its durability. Can be used for building structures, tools, and weapons. -->
+  <CAL_BlackSteel.description>Steel alloyed with hepatzion to slightly increase its durability. Can be used for building structures, tools, and weapons.</CAL_BlackSteel.description>
+  <!-- EN: plastin -->
+  <CAL_Plastin.label>plastin</CAL_Plastin.label>
+  <!-- EN: A durable alloy of tin and plasteel useful for weapons. Can also be used for building structures, tools, and sculptures. -->
+  <CAL_Plastin.description>A durable alloy of tin and plasteel useful for weapons. Can also be used for building structures, tools, and sculptures.</CAL_Plastin.description>
+</LanguageData>

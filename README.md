@@ -1,6 +1,7 @@
 # [Cupro's Alloys (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2019702358)
 
 ![Image](https://i.imgur.com/buuPQel.png)
+
 Update of The White Crayons mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543189281
 
@@ -15,8 +16,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1543189281
 
 
 - Added the possibility of buildning conduits and components of copper and aluminium and not just steel.
-- Added support for [https://steamcommunity.com/sharedfiles/filedetails/?id=1554804570](Metals+)
-- Added support for [https://steamcommunity.com/sharedfiles/filedetails/?id=2131576786](Fueled Smelter + Crematorium(continued))
+- Added support for [Metals+](https://steamcommunity.com/sharedfiles/filedetails/?id=1554804570)
+- Added support for [Fueled Smelter + Crematorium(continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2131576786)
 
 
 ![Image](https://i.imgur.com/pufA0kM.png)
@@ -25,7 +26,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1543189281
 
 Adds new mid-game/end-game alloyed metals for creating buildings, weapons, and art.
 
-The B19 version can be found [https://steamcommunity.com/sharedfiles/filedetails/?id=1474904096](here.)
+The B19 version can be found [here.](https://steamcommunity.com/sharedfiles/filedetails/?id=1474904096)
 
 # Thanks to cuproPanda
 
@@ -89,14 +90,15 @@ No known issues yet, please report any issues
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
+
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-[https://steamcommunity.com/sharedfiles/filedetails/changelog/2019702358]![Image]((https://img.shields.io/github/v/release/emipa606/CuprosAlloys?label=latest%20version&style=plastic&color=9f1111&labelColor=black))
+[![Image](https://img.shields.io/github/v/release/emipa606/CuprosAlloys?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2019702358) | tags:  metal,  crafting

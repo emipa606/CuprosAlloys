@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: aluminum tile -->
+  <CAL_AluminumTile.label>aluminum tile</CAL_AluminumTile.label>
+  <!-- EN: Aluminum tiles, for a utilitarian look. Quick to build, but neutral in terms of beauty. -->
+  <CAL_AluminumTile.description>Aluminum tiles, for a utilitarian look. Quick to build, but neutral in terms of beauty.</CAL_AluminumTile.description>
+  <!-- EN: bismuth tile -->
+  <CAL_BismuthTile.label>bismuth tile</CAL_BismuthTile.label>
+  <!-- EN: Oxidized bismuth tiles, for a rainbow look. Slow to build, and provides a small amount of beauty. -->
+  <CAL_BismuthTile.description>Oxidized bismuth tiles, for a rainbow look. Slow to build, and provides a small amount of beauty.</CAL_BismuthTile.description>
+  <!-- EN: chromium tile -->
+  <CAL_ChromiumTile.label>chromium tile</CAL_ChromiumTile.label>
+  <!-- EN: Chromium tiles provide a bright, mirrored floor. Very expensive and requires a lot of work to build. -->
+  <CAL_ChromiumTile.description>Chromium tiles provide a bright, mirrored floor. Very expensive and requires a lot of work to build.</CAL_ChromiumTile.description>
+  <!-- EN: nickel tile -->
+  <CAL_NickelTile.label>nickel tile</CAL_NickelTile.label>
+  <!-- EN: Nickel tiles, for a bright look. Quick to build, but neutral in terms of beauty. -->
+  <CAL_NickelTile.description>Nickel tiles, for a bright look. Quick to build, but neutral in terms of beauty.</CAL_NickelTile.description>
+  <!-- EN: tin tile -->
+  <CAL_TinTile.label>tin tile</CAL_TinTile.label>
+  <!-- EN: Tin tiles, for a utilitarian look. Quick to build, but neutral in terms of beauty. -->
+  <CAL_TinTile.description>Tin tiles, for a utilitarian look. Quick to build, but neutral in terms of beauty.</CAL_TinTile.description>
+  <!-- EN: zinc tile -->
+  <CAL_ZincTile.label>zinc tile</CAL_ZincTile.label>
+  <!-- EN: Zinc tiles, for a bright look. Quick to build, but neutral in terms of beauty. -->
+  <CAL_ZincTile.description>Zinc tiles, for a bright look. Quick to build, but neutral in terms of beauty.</CAL_ZincTile.description>
+</LanguageData>

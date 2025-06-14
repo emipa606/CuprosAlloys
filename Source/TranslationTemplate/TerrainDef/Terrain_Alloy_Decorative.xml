@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: aurichalcum tile -->
+  <CAL_AurichalcumTile.label>aurichalcum tile</CAL_AurichalcumTile.label>
+  <!-- EN: A vibrant flooring for a flashy look. Fits into all kinds of luxurious rooms. -->
+  <CAL_AurichalcumTile.description>A vibrant flooring for a flashy look. Fits into all kinds of luxurious rooms.</CAL_AurichalcumTile.description>
+  <!-- EN: brass tile -->
+  <CAL_BrassTile.label>brass tile</CAL_BrassTile.label>
+  <!-- EN: A cheaper alternative to pure gold flooring. Fits perfectly into all kinds of luxurious rooms. -->
+  <CAL_BrassTile.description>A cheaper alternative to pure gold flooring. Fits perfectly into all kinds of luxurious rooms.</CAL_BrassTile.description>
+  <!-- EN: chrome-plated steel tile -->
+  <CAL_ChromePlatedSteelTile.label>chrome-plated steel tile</CAL_ChromePlatedSteelTile.label>
+  <!-- EN: Chrome-plated steel tiles provide a mirrored floor. Expensive, and requires a lot of work to build. -->
+  <CAL_ChromePlatedSteelTile.description>Chrome-plated steel tiles provide a mirrored floor. Expensive, and requires a lot of work to build.</CAL_ChromePlatedSteelTile.description>
+  <!-- EN: electrum tile -->
+  <CAL_ElectrumTile.label>electrum tile</CAL_ElectrumTile.label>
+  <!-- EN: An elegant flooring that strikes the perfect balance between gold and silver. Fits perfectly into all kinds of luxurious rooms. -->
+  <CAL_ElectrumTile.description>An elegant flooring that strikes the perfect balance between gold and silver. Fits perfectly into all kinds of luxurious rooms.</CAL_ElectrumTile.description>
+  <!-- EN: rose gold tile -->
+  <CAL_RoseGoldTile.label>rose gold tile</CAL_RoseGoldTile.label>
+  <!-- EN: A beautiful and impressive kind of floor. Very expensive and requires a lot of work to build. -->
+  <CAL_RoseGoldTile.description>A beautiful and impressive kind of floor. Very expensive and requires a lot of work to build.</CAL_RoseGoldTile.description>
+  <!-- EN: sterling silver tile -->
+  <CAL_SterlingSilverTile.label>sterling silver tile</CAL_SterlingSilverTile.label>
+  <!-- EN: A slightly cheaper alternative to pure silver without sacrificing beauty. Fits perfectly into all kinds of luxurious rooms. -->
+  <CAL_SterlingSilverTile.description>A slightly cheaper alternative to pure silver without sacrificing beauty. Fits perfectly into all kinds of luxurious rooms.</CAL_SterlingSilverTile.description>
+</LanguageData>

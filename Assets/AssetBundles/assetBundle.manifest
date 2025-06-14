@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 1328342934
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb43b33b09d0c7077478fa76ae7f79f8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: eb43b33b09d0c7077478fa76ae7f79f8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Bismuth/BismuthA.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Ingot_Shiny/Ingot_ShinyA.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Null.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Chromium/ChromiumB.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Copper/CopperC.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Ingot_Shiny/Ingot_ShinyB.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Lead/LeadB.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Aluminum/AluminumC.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Object/Structure/RockFlecked_Atlas.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Nickel/NickelB.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Ingot_Dull/Ingot_DullB.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Nickel/NickelA.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Terrain/ShinyFloorTile.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Tin/TinC.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Aluminum/AluminumA.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Terrain/BismuthFloorTile.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Tin/TinB.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Lead/LeadC.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Zinc/ZincB.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Object/Structure/RockFlecked_Atlas_m.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Bismuth/BismuthC.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Zinc/ZincC.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/UI/Icons/ConductingCategory.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Chromium/ChromiumA.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Bismuth/BismuthB.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Aluminum/AluminumB.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Copper/CopperB.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Chromium/ChromiumC.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Ingot_Dull/Ingot_DullA.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Tin/TinA.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Nickel/NickelC.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Copper/CopperA.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Zinc/ZincA.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/Item/Material/Lead/LeadA.png
+- Assets/Data/Mlie.CuprosAlloys/Textures/Cupro/UI/Icons/MetalsCategory.png
+Dependencies: []
