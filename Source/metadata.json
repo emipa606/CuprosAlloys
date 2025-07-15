@@ -4,9 +4,15 @@
   "CanRemove": "1",
   "PreviewVersion": "1.6",
   "SocialImageSet": true,
-  "LastXmlCleaning": "2025-06-14T19:28:58.2970771+02:00",
+  "LastXmlCleaning": "2025-07-15T21:01:52.4687001+02:00",
   "SearchTags": [
     " metal",
     " crafting"
-  ]
+  ],
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 109642,
+  "CodeBaseSize": 79
 }
