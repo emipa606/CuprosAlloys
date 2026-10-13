@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- Decorative Alloys -->
   <CAL_Brass.label>黄铜</CAL_Brass.label>
@@ -32,4 +32,5 @@
   <!-- EN: A valuable alloy of gold and copper, often used for making sculptures. Can also be used for building structures, tools, and weapons. -->
   <!-- EN: sterling silver -->
   <!-- EN: A valuable alloy of silver and copper, often used for making sculptures. Can also be used for building structures, tools, and weapons. -->
+  <!-- EN: chrome-plated -->
 </LanguageData>

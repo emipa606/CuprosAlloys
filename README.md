@@ -101,4 +101,4 @@ No known issues yet, please report any issues
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/CuprosAlloys?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2019702358) | tags: crafting, metal
+[![Image](https://img.shields.io/github/v/release/emipa606/CuprosAlloys?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2019702358) | crafting, metal

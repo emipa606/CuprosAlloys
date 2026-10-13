@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- Base Metals -->
   <CAL_Copper.label>铜</CAL_Copper.label>
@@ -42,4 +42,5 @@
   <!-- EN: A soft and malleable metal most often alloyed with copper to make bronze. Can be used for building structures, tools, and weapons. -->
   <!-- EN: zinc -->
   <!-- EN: A hard and brittle metal often alloyed to improve its durability. Can be used for building structures, tools, and weapons. -->
+  <!-- EN: chrome -->
 </LanguageData>

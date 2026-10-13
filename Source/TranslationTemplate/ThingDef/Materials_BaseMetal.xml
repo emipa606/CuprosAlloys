@@ -12,6 +12,8 @@
   <CAL_Chromium.label>chromium</CAL_Chromium.label>
   <!-- EN: A hard and shiny metal used mainly for making chrome-plated or stainless steel. Can be used for building structures, tools, and weapons. -->
   <CAL_Chromium.description>A hard and shiny metal used mainly for making chrome-plated or stainless steel. Can be used for building structures, tools, and weapons.</CAL_Chromium.description>
+  <!-- EN: chrome -->
+  <CAL_Chromium.stuffProps.stuffAdjective>chrome</CAL_Chromium.stuffProps.stuffAdjective>
   <!-- EN: copper -->
   <CAL_Copper.label>copper</CAL_Copper.label>
   <!-- EN: An important metal when dealing with temperature and electricity. Can also be used for building structures, tools, and weapons. -->

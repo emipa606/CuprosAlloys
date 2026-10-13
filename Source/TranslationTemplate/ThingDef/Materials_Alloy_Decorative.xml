@@ -12,6 +12,8 @@
   <CAL_ChromePlatedSteel.label>chrome-plated steel</CAL_ChromePlatedSteel.label>
   <!-- EN: Steel coated with nickel and chromium, valued for its highly polished look. Can be used for building structures, tools, and weapons. -->
   <CAL_ChromePlatedSteel.description>Steel coated with nickel and chromium, valued for its highly polished look. Can be used for building structures, tools, and weapons.</CAL_ChromePlatedSteel.description>
+  <!-- EN: chrome-plated -->
+  <CAL_ChromePlatedSteel.stuffProps.stuffAdjective>chrome-plated</CAL_ChromePlatedSteel.stuffProps.stuffAdjective>
   <!-- EN: electrum -->
   <CAL_Electrum.label>electrum</CAL_Electrum.label>
   <!-- EN: A valuable alloy of gold and silver, often used for making sculptures. Can also be used for building structures, tools, and weapons. -->
